@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FTSE 100 CEO LinkedIn Engagement Ranking — May to August 2026</title>
+<style>
+  :root { --navy-900:#001740; --navy-800:#00244A; --navy-700:#00355F; --teal:#2F6F7A;
+    --paper:#fff; --ink:#1b2733; --line:#e4e8ee; --mute:#6a7889; --tint:#f5f7fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--tint); color:var(--ink); line-height:1.5; -webkit-font-smoothing:antialiased;
+    font-family:"Azeret Mono","Azeret",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  .wrap { max-width:1000px; margin:0 auto; padding:0 24px 72px; }
+  header.top { background:linear-gradient(135deg,var(--navy-900),var(--navy-700)); color:#fff;
+    padding:44px 0 40px; border-bottom:4px solid var(--teal); }
+  .top .wrap { padding-bottom:0; }
+  .eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:11px; color:#9fc4cd; font-weight:600; margin:0 0 12px; }
+  h1 { font-size:29px; line-height:1.15; margin:0 0 6px; font-weight:700; letter-spacing:-.01em; }
+  .tag { margin:2px 0 12px; font-size:13px; color:#9fc4cd; font-weight:600; letter-spacing:.02em; }
+  .sub { color:#c4d2e0; font-size:15px; max-width:660px; margin:0; }
+  .meta { margin-top:22px; display:flex; gap:32px; flex-wrap:wrap; }
+  .meta div { font-size:13px; color:#c4d2e0; }
+  .meta b { display:block; font-size:22px; color:#fff; font-weight:700; margin-bottom:2px; }
+  .meta b small { font-size:12px; font-weight:500; color:#9fc4cd; }
+  section { margin-top:40px; }
+  h2 { font-size:18px; color:var(--navy-800); margin:0 0 4px; font-weight:700; }
+  h2 .rule { display:block; width:38px; height:3px; background:var(--teal); margin-top:8px; border-radius:2px; }
+  .lede { color:var(--mute); font-size:14px; margin:8px 0 18px; max-width:740px; }
+  .toolbar { display:flex; align-items:center; gap:16px; flex-wrap:wrap; margin:0 0 16px; }
+  .toggle { display:inline-flex; background:#e9eef3; border-radius:9px; padding:4px; gap:2px; }
+  .toggle button { border:0; background:transparent; cursor:pointer; font-family:inherit;
+    font-size:13px; font-weight:600; color:var(--mute); padding:8px 16px; border-radius:6px; transition:.15s; }
+  .toggle button.active { background:var(--navy-800); color:#fff; box-shadow:0 1px 3px rgba(0,20,60,.18); }
+  .toggle button:not(.active):hover { color:var(--navy-800); }
+  .count { font-size:13px; color:var(--mute); }
+  .count b { color:var(--navy-800); }
+  .warn { background:#fdf6ec; border:1px solid #f0dcbf; border-left:4px solid #d98a1f; border-radius:8px;
+    padding:14px 18px; font-size:13.5px; color:#7a5417; margin:0 0 18px; }
+  table { width:100%; border-collapse:collapse; background:var(--paper); border:1px solid var(--line);
+    border-radius:8px; overflow:hidden; font-size:14px; }
+  thead th { background:var(--navy-800); color:#fff; text-align:left; padding:11px 12px;
+    font-weight:600; font-size:12px; letter-spacing:.03em; text-transform:uppercase; }
+  thead th.num { text-align:right; }
+  tbody td { padding:11px 12px; border-top:1px solid var(--line); vertical-align:top; }
+  tbody tr:nth-child(even) { background:#fafbfc; }
+  tbody tr:hover { background:#eef4f5; }
+  .rank { font-weight:700; color:var(--teal); width:38px; }
+  .name { font-weight:600; color:var(--navy-800); }
+  .name .co { display:block; font-weight:400; color:var(--mute); font-size:12.5px; margin-top:1px; }
+  .num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .num.strong { font-weight:700; color:var(--ink); }
+  .rate { font-weight:600; color:var(--teal); }
+  .flags { white-space:nowrap; }
+  .flag { display:inline-block; font-size:10px; text-transform:uppercase; letter-spacing:.04em;
+    padding:2px 6px; border-radius:4px; font-weight:600; }
+  .flag-lown { background:#fdf0e2; color:#a15c14; }
+  .flag-note { background:#e9eef8; color:var(--navy-700); }
+  .notes { background:var(--paper); border:1px solid var(--line); border-left:4px solid var(--teal);
+    border-radius:8px; padding:20px 22px; font-size:13.5px; color:#3a4855; margin-top:40px; }
+  .notes h3 { margin:0 0 10px; font-size:14px; color:var(--navy-800); }
+  .notes ul { margin:0; padding-left:18px; } .notes li { margin-bottom:7px; } .notes li:last-child { margin-bottom:0; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--mute); font-size:12px; }
+  @media (max-width:640px) { h1 { font-size:23px; } thead th, tbody td { padding:9px 8px; } .meta { gap:20px; } }
+</style></head><body>
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Headland &middot; Social Intelligence</p>
+  <h1>FTSE 100 CEO LinkedIn Engagement Ranking</h1>
+  <p class="tag">Latest window &middot; 1 May to 19 August 2026</p>
+  <p class="sub">Chief executives ranked by mean engagement on their own original posts in the latest data window. Reposts are excluded so the figure reflects each leader's own reach.</p>
+  <div class="meta">
+    <div><b id="mCeos">44</b><small>CEOs ranked</small></div>
+    <div><b id="mTop">-</b><small id="mTopName">top mean</small></div>
+    <div><b id="mMed">-</b><small>median across CEOs</small></div>
+    <div><b id="mPosts">317</b>original posts</div>
+  </div>
+</div></header>
+<div class="wrap">
+  <section>
+    <h2>Ranking &middot; 1 May to 19 August 2026<span class="rule"></span></h2>
+    <div class="toolbar">
+      <div class="toggle" role="tablist">
+        <button id="btnAll" class="active" onclick="setView('all')">All posts</button>
+        <button id="btnMin5" onclick="setView('min5')">Minimum 5 posts</button>
+      </div>
+      <span class="count" id="countLabel"></span>
+    </div>
+    <div class="warn" id="warnBox"></div>
+    <p class="lede">Engagement per post = reactions + comments + shares. Ranked by the mean across each CEO's original posts dated 1 May to 19 August 2026. "Per 1k" is mean engagement per 1,000 followers, a reach-adjusted view.</p>
+    <table>
+      <thead><tr>
+        <th>#</th><th>CEO &amp; company</th><th class="num">Mean</th>
+        <th class="num">Median</th><th class="num">n</th><th class="num">Followers</th><th class="num">Per 1k</th><th></th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </section>
+  <section><div class="notes">
+    <h3>Method and data notes</h3>
+    <ul>
+      <li>Source: a single LinkedIn export captured 19 August 2026 covering 1 May to 19 August. Using one capture keeps engagement counts consistent across the window.</li>
+      <li>Scope: original posts only (reposts removed), by the cleaned set of FTSE 100 CEOs. 44 posted original content in the window; 15 did not and are absent. The "Minimum 5 posts" view further removes CEOs whose ranking rests on fewer than five posts.</li>
+      <li>The short window makes means volatile, which is why the minimum-post filter is offered. Median and post count (n) sit alongside the mean so you can see how much each figure rests on.</li>
+      <li>Follower counts are from the profile export dated 2 July 2026 (António Simões and Zoe Yujnovich supplied separately) and are a blunt reach proxy, so treat "Per 1k" as directional. Julia Hoggett is marked "label": she leads London Stock Exchange plc, the exchange, rather than LSEG group.</li>
+    </ul>
+  </div></section>
+  <footer>Prepared by Headland &middot; Social Intelligence &middot; 19 August 2026. Engagement and follower counts are point-in-time. Intended brand typeface: Azeret.</footer>
+</div>
+<script>
+const DATA = [{"name": "Tufan Erginbilgic", "company": "Rolls-Royce", "status": "current", "mean": 3034, "median": 3034, "n": 1, "foll": 82295, "rate": 36.9}, {"name": "Meg O'Neill", "company": "BP", "status": "current", "mean": 2447, "median": 2386, "n": 9, "foll": 94011, "rate": 26.0}, {"name": "Wael Sawan", "company": "Shell", "status": "current", "mean": 2421, "median": 2421, "n": 2, "foll": 121053, "rate": 20.0}, {"name": "Margherita Della Valle", "company": "Vodafone", "status": "current", "mean": 2158, "median": 2158, "n": 1, "foll": 40571, "rate": 53.2}, {"name": "Fernando Fernandez", "company": "Unilever", "status": "current", "mean": 1478, "median": 1026, "n": 7, "foll": 93467, "rate": 15.8}, {"name": "Joshua Schulman", "company": "Burberry", "status": "current", "mean": 1318, "median": 1318, "n": 2, "foll": 6784, "rate": 194.4}, {"name": "Stuart Machin", "company": "M&S", "status": "current", "mean": 1309, "median": 1006, "n": 11, "foll": 193075, "rate": 6.8}, {"name": "Deepak Nath", "company": "Smith+Nephew", "status": "current", "mean": 1101, "median": 1115, "n": 3, "foll": 13600, "rate": 81.0}, {"name": "Kris Licht", "company": "Reckitt", "status": "current", "mean": 1087, "median": 1087, "n": 2, "foll": 14328, "rate": 75.9}, {"name": "Simon Trott", "company": "Rio Tinto", "status": "current", "mean": 1058, "median": 1058, "n": 2, "foll": 53958, "rate": 19.6}, {"name": "Allison Kirkby", "company": "BT Group", "status": "current", "mean": 989, "median": 1013, "n": 5, "foll": 46612, "rate": 21.2}, {"name": "Cindy Rose OBE", "company": "WPP", "status": "current", "mean": 917, "median": 1135, "n": 5, "foll": 58238, "rate": 15.8}, {"name": "CS Venkatakrishnan", "company": "Barclays", "status": "current", "mean": 862, "median": 750, "n": 12, "foll": 166063, "rate": 5.2}, {"name": "Paul Thwaite", "company": "NatWest Group", "status": "current", "mean": 852, "median": 624, "n": 8, "foll": 59660, "rate": 14.3}, {"name": "Anil Wadhwani", "company": "Prudential", "status": "current", "mean": 739, "median": 652, "n": 3, "foll": 17016, "rate": 43.4}, {"name": "Dr. Charles Woodburn", "company": "BAE Systems", "status": "current", "mean": 722, "median": 765, "n": 11, "foll": 41738, "rate": 17.3}, {"name": "Michael Murray", "company": "Frasers Group", "status": "current", "mean": 721, "median": 524, "n": 10, "foll": 45070, "rate": 16.0}, {"name": "Elie W. Maalouf", "company": "IHG", "status": "current", "mean": 710, "median": 719, "n": 11, "foll": 3982, "rate": 178.3}, {"name": "Bill Winters", "company": "Standard Chartered", "status": "current", "mean": 677, "median": 483, "n": 21, "foll": 141535, "rate": 4.8}, {"name": "Iv\u00e1n Arriagada", "company": "Antofagasta", "status": "current", "mean": 638, "median": 757, "n": 3, "foll": 57079, "rate": 11.2}, {"name": "Zoe Yujnovich", "company": "National Grid", "status": "current", "mean": 596, "median": 499, "n": 6, "foll": 18286, "rate": 32.6}, {"name": "Tadeu Marroco", "company": "BAT", "status": "current", "mean": 560, "median": 500, "n": 9, "foll": 25098, "rate": 22.3}, {"name": "Simon Roberts", "company": "Sainsbury's", "status": "current", "mean": 552, "median": 552, "n": 2, "foll": 34987, "rate": 15.8}, {"name": "Aki Hussain", "company": "Hiscox", "status": "current", "mean": 526, "median": 430, "n": 6, "foll": 11092, "rate": 47.4}, {"name": "Julia Hoggett", "company": "London Stock Exchange plc", "status": "note", "mean": 491, "median": 379, "n": 8, "foll": 28492, "rate": 17.2}, {"name": "Charlie Nunn", "company": "Lloyds Banking Group", "status": "current", "mean": 489, "median": 400, "n": 12, "foll": 94762, "rate": 5.2}, {"name": "Brian McNamara", "company": "Haleon", "status": "current", "mean": 487, "median": 474, "n": 3, "foll": 31345, "rate": 15.5}, {"name": "Thierry Garnier", "company": "Kingfisher", "status": "current", "mean": 457, "median": 443, "n": 8, "foll": 25153, "rate": 18.2}, {"name": "Ant\u00f3nio Sim\u00f5es", "company": "Legal & General", "status": "current", "mean": 416, "median": 385, "n": 6, "foll": 72516, "rate": 5.7}, {"name": "Tjeerd Jegen", "company": "B&M European Value Retail", "status": "current", "mean": 397, "median": 370, "n": 5, "foll": 6672, "rate": 59.4}, {"name": "Omar Abbosh", "company": "Pearson", "status": "current", "mean": 373, "median": 372, "n": 17, "foll": 42271, "rate": 8.8}, {"name": "Roy Twite", "company": "IMI", "status": "current", "mean": 297, "median": 297, "n": 2, "foll": 2472, "rate": 120.1}, {"name": "R\u00e9gis Schultz", "company": "JD Sports Fashion", "status": "current", "mean": 296, "median": 271, "n": 4, "foll": 81392, "rate": 3.6}, {"name": "Andrea Rossi", "company": "M&G", "status": "current", "mean": 285, "median": 264, "n": 16, "foll": 17104, "rate": 16.7}, {"name": "Frank van Zanten", "company": "Bunzl", "status": "current", "mean": 279, "median": 275, "n": 3, "foll": 3274, "rate": 85.3}, {"name": "Steve Hare", "company": "Sage", "status": "current", "mean": 268, "median": 164, "n": 10, "foll": 25667, "rate": 10.4}, {"name": "Mark FitzPatrick", "company": "St. James's Place", "status": "current", "mean": 261, "median": 249, "n": 5, "foll": 18829, "rate": 13.9}, {"name": "Andy Briggs MBE", "company": "Phoenix Group", "status": "current", "mean": 261, "median": 232, "n": 11, "foll": 8460, "rate": 30.9}, {"name": "Johnny Thomson", "company": "Diploma", "status": "current", "mean": 251, "median": 251, "n": 1, "foll": 1193, "rate": 210.4}, {"name": "Chris O'Shea", "company": "Centrica", "status": "current", "mean": 244, "median": 244, "n": 2, "foll": 20616, "rate": 11.8}, {"name": "Mark Allan", "company": "Landsec", "status": "current", "mean": 232, "median": 239, "n": 7, "foll": 9265, "rate": 25.0}, {"name": "Jennie Daly CBE", "company": "Taylor Wimpey", "status": "current", "mean": 228, "median": 186, "n": 5, "foll": 13364, "rate": 17.1}, {"name": "Andr\u00e9 Lacroix", "company": "Intertek", "status": "current", "mean": 223, "median": 174, "n": 39, "foll": 16394, "rate": 13.6}, {"name": "Breon Corcoran", "company": "IG Group", "status": "current", "mean": 208, "median": 208, "n": 1, "foll": 3967, "rate": 52.4}];
+const fmt = n => n.toLocaleString('en-GB');
+function rowsFor(view) {
+  let r = DATA.filter(d => view==='all' ? true : d.n>=5);
+  r.sort((a,b)=> b.mean-a.mean);
+  return r;
+}
+function render(view) {
+  const rows = rowsFor(view);
+  const tb = document.getElementById('tbody');
+  tb.innerHTML = rows.map((d,i)=>{
+    const flags=[];
+    if(d.status==='note') flags.push('<span class="flag flag-note" title="Label check">label</span>');
+    if(d.n<5) flags.push('<span class="flag flag-lown" title="Fewer than 5 posts in window">low n</span>');
+    const rate = d.rate==null ? '<span style="color:#b3bcc8">&ndash;</span>' : fmt(d.rate);
+    return `<tr>
+      <td class="rank">${i+1}</td>
+      <td class="name">${d.name}<span class="co">${d.company}</span></td>
+      <td class="num strong">${fmt(d.mean)}</td>
+      <td class="num">${fmt(d.median)}</td>
+      <td class="num">${d.n}</td>
+      <td class="num">${fmt(d.foll)}</td>
+      <td class="num rate">${rate}</td>
+      <td class="flags">${flags.join(' ')}</td>
+    </tr>`;
+  }).join('');
+  // stats
+  const means = rows.map(d=>d.mean).sort((a,b)=>a-b);
+  const med = means.length%2 ? means[(means.length-1)/2] : Math.round((means[means.length/2-1]+means[means.length/2])/2);
+  const posts = rows.reduce((s,d)=>s+d.n,0);
+  const lown = rows.filter(d=>d.n<5).length;
+  document.getElementById('mCeos').textContent = rows.length;
+  document.getElementById('mTop').textContent = fmt(rows[0].mean);
+  const tn = rows[0].name.split(' ');
+  document.getElementById('mTopName').textContent = 'top mean · '+tn[0]+' '+tn[tn.length-1];
+  document.getElementById('mMed').textContent = fmt(med);
+  document.getElementById('mPosts').textContent = posts;
+  document.getElementById('countLabel').innerHTML = 'Showing <b>'+rows.length+'</b> CEOs · '+posts+' posts';
+  const warn = document.getElementById('warnBox');
+  if(view==='all') {
+    warn.innerHTML = 'This window is short (about 15 weeks), so post counts are low and means are volatile. <b>'+lown+'</b> of the '+rows.length+' CEOs sit on fewer than five posts and are marked. Switch to <b>Minimum 5 posts</b> for a steadier ranking. 15 whitelisted CEOs posted nothing original in this window and do not appear.';
+  } else {
+    warn.innerHTML = 'Filtered to CEOs with at least five original posts in the window, which removes the single- and low-post rankings that make the full list volatile. <b>'+rows.length+'</b> CEOs remain, all resting on a workable base.';
+  }
+}
+function setView(v) {
+  document.getElementById('btnAll').classList.toggle('active', v==='all');
+  document.getElementById('btnMin5').classList.toggle('active', v==='min5');
+  render(v);
+}
+render('all');
+</script>
+</body></html>

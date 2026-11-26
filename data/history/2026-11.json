@@ -1,1 +1,571 @@
-{"meta":{"as_of":"2026-11-25","window_start":"2025-11-03","ceos_ranked":57,"posts":1144,"with_followers":57},"rows":[{"name":"Wael Sawan","company":"Shell","mean":2944,"median":1975,"n":7,"foll":133475,"rate":22.1,"new":false},{"name":"Meg O'Neill","company":"BP","mean":2743,"median":2066,"n":24,"foll":122136,"rate":22.5,"new":false},{"name":"Tufan Erginbilgic","company":"Rolls-Royce Holdings","mean":2110,"median":1842,"n":8,"foll":92822,"rate":22.7,"new":false},{"name":"Margherita Della Valle","company":"Vodafone Group","mean":1674,"median":1925,"n":4,"foll":42115,"rate":39.7,"new":false},{"name":"Fernando Fernandez","company":"Unilever","mean":1654,"median":1139,"n":21,"foll":115232,"rate":14.4,"new":false},{"name":"Joanne McNamara","company":"British Land","mean":1597,"median":951,"n":5,"foll":5513,"rate":289.6,"new":true},{"name":"Joshua Schulman","company":"Burberry Group","mean":1307,"median":1321,"n":5,"foll":7335,"rate":178.2,"new":false},{"name":"Stuart Machin","company":"Marks & Spencer Group plc","mean":1158,"median":786,"n":40,"foll":200175,"rate":5.8,"new":false},{"name":"Kris Licht","company":"Reckitt Benckiser Group","mean":1125,"median":1397,"n":9,"foll":17439,"rate":64.5,"new":false},{"name":"Deepak Nath","company":"Smith & Nephew","mean":1124,"median":1122,"n":8,"foll":14652,"rate":76.7,"new":false},{"name":"C S Venkatakrishnan","company":"Barclays","mean":1091,"median":823,"n":41,"foll":178320,"rate":6.1,"new":false},{"name":"Zoran Bogdanović","company":"Coca-Cola HBC","mean":1060,"median":1055,"n":3,"foll":6767,"rate":156.6,"new":false},{"name":"Cindy Rose","company":"WPP","mean":1052,"median":885,"n":36,"foll":65731,"rate":16.0,"new":false},{"name":"Paul Thwaite","company":"Natwest Group","mean":1048,"median":717,"n":31,"foll":65511,"rate":16.0,"new":false},{"name":"Allison Kirkby","company":"BT Group","mean":1044,"median":865,"n":21,"foll":51429,"rate":20.3,"new":false},{"name":"Simon Trott","company":"Rio Tinto","mean":1037,"median":1000,"n":12,"foll":60687,"rate":17.1,"new":false},{"name":"Simon Roberts","company":"Sainsbury’s","mean":936,"median":576,"n":14,"foll":44311,"rate":21.1,"new":false},{"name":"Zoe Yujnovich","company":"National Grid","mean":876,"median":597,"n":19,"foll":22457,"rate":39.0,"new":false},{"name":"Christos Gavalas","company":"Metlen Energy & Metals","mean":826,"median":826,"n":1,"foll":3168,"rate":260.7,"new":true},{"name":"Sunil Taldar","company":"Airtel Africa","mean":797,"median":839,"n":4,"foll":4622,"rate":172.5,"new":true},{"name":"Charlie Nunn","company":"Lloyds Banking Group","mean":779,"median":540,"n":35,"foll":100517,"rate":7.8,"new":false},{"name":"Martin Pibworth","company":"SSE","mean":730,"median":608,"n":10,"foll":5842,"rate":125.0,"new":true},{"name":"Bill Winters","company":"Standard Chartered","mean":711,"median":509,"n":86,"foll":148137,"rate":4.8,"new":false},{"name":"Charles Woodburn","company":"BAE Systems","mean":706,"median":664,"n":23,"foll":44266,"rate":15.9,"new":false},{"name":"Chris O’Shea","company":"Centrica","mean":702,"median":501,"n":15,"foll":22499,"rate":31.2,"new":false},{"name":"Philip Hoare","company":"Balfour Beatty","mean":701,"median":552,"n":19,"foll":48127,"rate":14.6,"new":true},{"name":"Dean Banks","company":"Barratt Redrow","mean":664,"median":413,"n":6,"foll":13077,"rate":50.8,"new":true},{"name":"Elie Maalouf","company":"Intercontinental Hotels Group","mean":664,"median":628,"n":26,"foll":16086,"rate":41.3,"new":false},{"name":"Anil Wadhwani","company":"Prudential","mean":639,"median":517,"n":13,"foll":18414,"rate":34.7,"new":false},{"name":"Fani Titi","company":"Investec","mean":626,"median":626,"n":1,"foll":73475,"rate":8.5,"new":true},{"name":"Brian McNamara","company":"Haleon","mean":619,"median":626,"n":6,"foll":32484,"rate":19.0,"new":false},{"name":"Kenton Jarvis","company":"easyJet plc","mean":599,"median":469,"n":62,"foll":49874,"rate":12.0,"new":true},{"name":"Tadeu Marroco","company":"British American Tobacco","mean":568,"median":560,"n":26,"foll":27677,"rate":20.5,"new":false},{"name":"Aki Hussain","company":"Hiscox","mean":539,"median":441,"n":19,"foll":12447,"rate":43.3,"new":false},{"name":"Thierry Garnier","company":"Kingfisher","mean":506,"median":408,"n":24,"foll":28014,"rate":18.1,"new":false},{"name":"Iván Arriagada","company":"Antofagasta","mean":490,"median":363,"n":14,"foll":59645,"rate":8.2,"new":false},{"name":"Colin Godfrey","company":"Tritax Big Box REIT","mean":465,"median":465,"n":2,"foll":1228,"rate":378.7,"new":true},{"name":"Jonny Mason","company":"Convatec Group","mean":457,"median":465,"n":20,"foll":4527,"rate":100.9,"new":true},{"name":"Julia Hoggett","company":"London Stock Exchange Group","mean":450,"median":398,"n":29,"foll":32420,"rate":13.9,"new":false},{"name":"António Simões","company":"Legal & General Group","mean":440,"median":392,"n":30,"foll":73612,"rate":6.0,"new":false},{"name":"Omar Abbosh","company":"Pearson","mean":425,"median":370,"n":60,"foll":45727,"rate":9.3,"new":false},{"name":"Régis Schultz","company":"JD Sports Fashion","mean":414,"median":329,"n":16,"foll":82022,"rate":5.1,"new":false},{"name":"Andy Briggs","company":"Standard Life","mean":414,"median":282,"n":29,"foll":8886,"rate":46.6,"new":false},{"name":"Andrew Neilson","company":"Weir Group","mean":407,"median":409,"n":3,"foll":1823,"rate":223.4,"new":true},{"name":"Roy Twite","company":"IMI plc","mean":382,"median":396,"n":3,"foll":2693,"rate":141.8,"new":false},{"name":"Andrea Rossi","company":"M&G","mean":354,"median":318,"n":52,"foll":19549,"rate":18.1,"new":false},{"name":"Mark FitzPatrick","company":"St James Place","mean":336,"median":280,"n":16,"foll":20117,"rate":16.7,"new":false},{"name":"Stephen Hare","company":"Sage","mean":333,"median":252,"n":34,"foll":26811,"rate":12.4,"new":false},{"name":"Breon Corcoran","company":"IG Group","mean":314,"median":267,"n":3,"foll":4114,"rate":76.2,"new":false},{"name":"Frank van Zanten","company":"Bunzl","mean":276,"median":276,"n":5,"foll":3463,"rate":79.6,"new":false},{"name":"Archil Gachechiladze","company":"Lion Finance Group","mean":257,"median":317,"n":3,"foll":3068,"rate":83.8,"new":true},{"name":"André Lacroix","company":"Intertek Group","mean":245,"median":208,"n":120,"foll":18876,"rate":13.0,"new":false},{"name":"Mark Allan","company":"Land Securities Group","mean":244,"median":254,"n":13,"foll":10207,"rate":23.9,"new":false},{"name":"Milena Mondini de Focatiis","company":"Admiral Group","mean":239,"median":239,"n":2,"foll":3084,"rate":77.5,"new":false},{"name":"Johnny Thomson","company":"Diploma plc","mean":222,"median":250,"n":3,"foll":1220,"rate":181.7,"new":false},{"name":"David Sleath","company":"Segro","mean":216,"median":216,"n":2,"foll":2062,"rate":104.5,"new":false},{"name":"Donal Murphy","company":"DCC","mean":164,"median":164,"n":1,"foll":4129,"rate":39.7,"new":false}]}
+{
+ "meta": {
+  "as_of": "2026-11-26",
+  "window_start": "2025-11-26",
+  "ceos_ranked": 56,
+  "posts": 1075,
+  "with_followers": 56
+ },
+ "rows": [
+  {
+   "name": "Wael Sawan",
+   "company": "Shell",
+   "mean": 2945,
+   "median": 1978,
+   "n": 7,
+   "foll": 133553,
+   "rate": 22.0,
+   "new": false
+  },
+  {
+   "name": "Meg O'Neill",
+   "company": "BP",
+   "mean": 2819,
+   "median": 2071,
+   "n": 23,
+   "foll": 122277,
+   "rate": 23.1,
+   "new": false
+  },
+  {
+   "name": "Tufan Erginbilgic",
+   "company": "Rolls-Royce Holdings",
+   "mean": 2176,
+   "median": 2024,
+   "n": 7,
+   "foll": 92846,
+   "rate": 23.4,
+   "new": false
+  },
+  {
+   "name": "Margherita Della Valle",
+   "company": "Vodafone Group",
+   "mean": 2023,
+   "median": 2202,
+   "n": 3,
+   "foll": 42124,
+   "rate": 48.0,
+   "new": false
+  },
+  {
+   "name": "Fernando Fernandez",
+   "company": "Unilever",
+   "mean": 1654,
+   "median": 1139,
+   "n": 21,
+   "foll": 115325,
+   "rate": 14.3,
+   "new": false
+  },
+  {
+   "name": "Joanne McNamara",
+   "company": "British Land",
+   "mean": 1598,
+   "median": 960,
+   "n": 5,
+   "foll": 5531,
+   "rate": 289.0,
+   "new": true
+  },
+  {
+   "name": "Joshua Schulman",
+   "company": "Burberry Group",
+   "mean": 1326,
+   "median": 1334,
+   "n": 4,
+   "foll": 7341,
+   "rate": 180.7,
+   "new": false
+  },
+  {
+   "name": "Stuart Machin",
+   "company": "Marks & Spencer Group plc",
+   "mean": 1206,
+   "median": 1009,
+   "n": 37,
+   "foll": 200237,
+   "rate": 6.0,
+   "new": false
+  },
+  {
+   "name": "Kris Licht",
+   "company": "Reckitt Benckiser Group",
+   "mean": 1125,
+   "median": 1397,
+   "n": 9,
+   "foll": 17449,
+   "rate": 64.5,
+   "new": false
+  },
+  {
+   "name": "Deepak Nath",
+   "company": "Smith & Nephew",
+   "mean": 1124,
+   "median": 1122,
+   "n": 8,
+   "foll": 14653,
+   "rate": 76.7,
+   "new": false
+  },
+  {
+   "name": "Allison Kirkby",
+   "company": "BT Group",
+   "mean": 1113,
+   "median": 916,
+   "n": 18,
+   "foll": 51447,
+   "rate": 21.6,
+   "new": false
+  },
+  {
+   "name": "C S Venkatakrishnan",
+   "company": "Barclays",
+   "mean": 1089,
+   "median": 791,
+   "n": 38,
+   "foll": 178353,
+   "rate": 6.1,
+   "new": false
+  },
+  {
+   "name": "Cindy Rose",
+   "company": "WPP",
+   "mean": 1067,
+   "median": 885,
+   "n": 34,
+   "foll": 65745,
+   "rate": 16.2,
+   "new": false
+  },
+  {
+   "name": "Zoran Bogdanović",
+   "company": "Coca-Cola HBC",
+   "mean": 1060,
+   "median": 1055,
+   "n": 3,
+   "foll": 6771,
+   "rate": 156.5,
+   "new": false
+  },
+  {
+   "name": "Paul Thwaite",
+   "company": "Natwest Group",
+   "mean": 1057,
+   "median": 717,
+   "n": 29,
+   "foll": 65535,
+   "rate": 16.1,
+   "new": false
+  },
+  {
+   "name": "Simon Roberts",
+   "company": "Sainsbury’s",
+   "mean": 923,
+   "median": 558,
+   "n": 12,
+   "foll": 44345,
+   "rate": 20.8,
+   "new": false
+  },
+  {
+   "name": "Simon Trott",
+   "company": "Rio Tinto",
+   "mean": 915,
+   "median": 895,
+   "n": 10,
+   "foll": 60702,
+   "rate": 15.1,
+   "new": false
+  },
+  {
+   "name": "Christos Gavalas",
+   "company": "Metlen Energy & Metals",
+   "mean": 826,
+   "median": 826,
+   "n": 1,
+   "foll": 3172,
+   "rate": 260.4,
+   "new": true
+  },
+  {
+   "name": "Sunil Taldar",
+   "company": "Airtel Africa",
+   "mean": 798,
+   "median": 839,
+   "n": 4,
+   "foll": 4634,
+   "rate": 172.2,
+   "new": true
+  },
+  {
+   "name": "Charlie Nunn",
+   "company": "Lloyds Banking Group",
+   "mean": 789,
+   "median": 540,
+   "n": 33,
+   "foll": 100530,
+   "rate": 7.8,
+   "new": false
+  },
+  {
+   "name": "Philip Hoare",
+   "company": "Balfour Beatty",
+   "mean": 726,
+   "median": 575,
+   "n": 18,
+   "foll": 48136,
+   "rate": 15.1,
+   "new": true
+  },
+  {
+   "name": "Chris O’Shea",
+   "company": "Centrica",
+   "mean": 706,
+   "median": 482,
+   "n": 14,
+   "foll": 22510,
+   "rate": 31.3,
+   "new": false
+  },
+  {
+   "name": "Charles Woodburn",
+   "company": "BAE Systems",
+   "mean": 704,
+   "median": 650,
+   "n": 22,
+   "foll": 44287,
+   "rate": 15.9,
+   "new": false
+  },
+  {
+   "name": "Bill Winters",
+   "company": "Standard Chartered",
+   "mean": 687,
+   "median": 501,
+   "n": 78,
+   "foll": 148171,
+   "rate": 4.6,
+   "new": false
+  },
+  {
+   "name": "Elie Maalouf",
+   "company": "Intercontinental Hotels Group",
+   "mean": 676,
+   "median": 629,
+   "n": 25,
+   "foll": 16115,
+   "rate": 42.0,
+   "new": false
+  },
+  {
+   "name": "Dean Banks",
+   "company": "Barratt Redrow",
+   "mean": 664,
+   "median": 413,
+   "n": 6,
+   "foll": 13078,
+   "rate": 50.8,
+   "new": true
+  },
+  {
+   "name": "Anil Wadhwani",
+   "company": "Prudential",
+   "mean": 639,
+   "median": 517,
+   "n": 13,
+   "foll": 18420,
+   "rate": 34.7,
+   "new": false
+  },
+  {
+   "name": "Martin Pibworth",
+   "company": "SSE",
+   "mean": 618,
+   "median": 591,
+   "n": 9,
+   "foll": 5844,
+   "rate": 105.7,
+   "new": true
+  },
+  {
+   "name": "Zoe Yujnovich",
+   "company": "National Grid",
+   "mean": 613,
+   "median": 584,
+   "n": 18,
+   "foll": 22483,
+   "rate": 27.3,
+   "new": false
+  },
+  {
+   "name": "Kenton Jarvis",
+   "company": "easyJet plc",
+   "mean": 582,
+   "median": 457,
+   "n": 56,
+   "foll": 49926,
+   "rate": 11.7,
+   "new": true
+  },
+  {
+   "name": "Tadeu Marroco",
+   "company": "British American Tobacco",
+   "mean": 568,
+   "median": 560,
+   "n": 26,
+   "foll": 27680,
+   "rate": 20.5,
+   "new": false
+  },
+  {
+   "name": "Brian McNamara",
+   "company": "Haleon",
+   "mean": 564,
+   "median": 520,
+   "n": 5,
+   "foll": 32480,
+   "rate": 17.4,
+   "new": false
+  },
+  {
+   "name": "Aki Hussain",
+   "company": "Hiscox",
+   "mean": 548,
+   "median": 441,
+   "n": 17,
+   "foll": 12455,
+   "rate": 44.0,
+   "new": false
+  },
+  {
+   "name": "Thierry Garnier",
+   "company": "Kingfisher",
+   "mean": 494,
+   "median": 395,
+   "n": 23,
+   "foll": 28025,
+   "rate": 17.6,
+   "new": false
+  },
+  {
+   "name": "Jonny Mason",
+   "company": "Convatec Group",
+   "mean": 475,
+   "median": 466,
+   "n": 17,
+   "foll": 4529,
+   "rate": 104.9,
+   "new": true
+  },
+  {
+   "name": "Iván Arriagada",
+   "company": "Antofagasta",
+   "mean": 466,
+   "median": 362,
+   "n": 13,
+   "foll": 59660,
+   "rate": 7.8,
+   "new": false
+  },
+  {
+   "name": "Colin Godfrey",
+   "company": "Tritax Big Box REIT",
+   "mean": 465,
+   "median": 465,
+   "n": 2,
+   "foll": 1229,
+   "rate": 378.4,
+   "new": true
+  },
+  {
+   "name": "Julia Hoggett",
+   "company": "London Stock Exchange Group",
+   "mean": 450,
+   "median": 398,
+   "n": 29,
+   "foll": 32441,
+   "rate": 13.9,
+   "new": false
+  },
+  {
+   "name": "Andy Briggs",
+   "company": "Standard Life",
+   "mean": 419,
+   "median": 286,
+   "n": 28,
+   "foll": 8886,
+   "rate": 47.2,
+   "new": false
+  },
+  {
+   "name": "Omar Abbosh",
+   "company": "Pearson",
+   "mean": 418,
+   "median": 368,
+   "n": 59,
+   "foll": 45731,
+   "rate": 9.1,
+   "new": false
+  },
+  {
+   "name": "Régis Schultz",
+   "company": "JD Sports Fashion",
+   "mean": 414,
+   "median": 329,
+   "n": 16,
+   "foll": 82026,
+   "rate": 5.1,
+   "new": false
+  },
+  {
+   "name": "Andrew Neilson",
+   "company": "Weir Group",
+   "mean": 407,
+   "median": 409,
+   "n": 3,
+   "foll": 1825,
+   "rate": 223.2,
+   "new": true
+  },
+  {
+   "name": "António Simões",
+   "company": "Legal & General Group",
+   "mean": 394,
+   "median": 386,
+   "n": 27,
+   "foll": 73616,
+   "rate": 5.4,
+   "new": false
+  },
+  {
+   "name": "Roy Twite",
+   "company": "IMI plc",
+   "mean": 382,
+   "median": 396,
+   "n": 3,
+   "foll": 2693,
+   "rate": 141.8,
+   "new": false
+  },
+  {
+   "name": "Andrea Rossi",
+   "company": "M&G",
+   "mean": 355,
+   "median": 320,
+   "n": 50,
+   "foll": 19566,
+   "rate": 18.2,
+   "new": false
+  },
+  {
+   "name": "Mark FitzPatrick",
+   "company": "St James Place",
+   "mean": 328,
+   "median": 275,
+   "n": 14,
+   "foll": 20126,
+   "rate": 16.3,
+   "new": false
+  },
+  {
+   "name": "Breon Corcoran",
+   "company": "IG Group",
+   "mean": 314,
+   "median": 267,
+   "n": 3,
+   "foll": 4115,
+   "rate": 76.3,
+   "new": false
+  },
+  {
+   "name": "Stephen Hare",
+   "company": "Sage",
+   "mean": 312,
+   "median": 243,
+   "n": 30,
+   "foll": 26812,
+   "rate": 11.6,
+   "new": false
+  },
+  {
+   "name": "Frank van Zanten",
+   "company": "Bunzl",
+   "mean": 276,
+   "median": 276,
+   "n": 5,
+   "foll": 3466,
+   "rate": 79.5,
+   "new": false
+  },
+  {
+   "name": "Johnny Thomson",
+   "company": "Diploma plc",
+   "mean": 260,
+   "median": 260,
+   "n": 2,
+   "foll": 1221,
+   "rate": 212.5,
+   "new": false
+  },
+  {
+   "name": "Archil Gachechiladze",
+   "company": "Lion Finance Group",
+   "mean": 257,
+   "median": 317,
+   "n": 3,
+   "foll": 3079,
+   "rate": 83.5,
+   "new": true
+  },
+  {
+   "name": "Mark Allan",
+   "company": "Land Securities Group",
+   "mean": 244,
+   "median": 254,
+   "n": 13,
+   "foll": 10216,
+   "rate": 23.9,
+   "new": false
+  },
+  {
+   "name": "André Lacroix",
+   "company": "Intertek Group",
+   "mean": 241,
+   "median": 196,
+   "n": 117,
+   "foll": 18888,
+   "rate": 12.8,
+   "new": false
+  },
+  {
+   "name": "Milena Mondini de Focatiis",
+   "company": "Admiral Group",
+   "mean": 239,
+   "median": 239,
+   "n": 2,
+   "foll": 3084,
+   "rate": 77.5,
+   "new": false
+  },
+  {
+   "name": "David Sleath",
+   "company": "Segro",
+   "mean": 216,
+   "median": 216,
+   "n": 2,
+   "foll": 2063,
+   "rate": 104.5,
+   "new": false
+  },
+  {
+   "name": "Donal Murphy",
+   "company": "DCC",
+   "mean": 164,
+   "median": 164,
+   "n": 1,
+   "foll": 4128,
+   "rate": 39.7,
+   "new": false
+  }
+ ]
+}

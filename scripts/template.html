@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FTSE 100 CEO LinkedIn Engagement Ranking — __TITLE_SUFFIX__</title>
+<style>
+  :root { --navy-900:#001740; --navy-800:#00244A; --navy-700:#00355F; --teal:#2F6F7A;
+    --paper:#fff; --ink:#1b2733; --line:#e4e8ee; --mute:#6a7889; --tint:#f5f7fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--tint); color:var(--ink); line-height:1.5; -webkit-font-smoothing:antialiased;
+    font-family:"Aptos","Aptos Display","Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:1020px; margin:0 auto; padding:0 24px 72px; }
+  header.top { background:linear-gradient(135deg,var(--navy-900),var(--navy-700)); color:#fff;
+    padding:44px 0 40px; border-bottom:4px solid var(--teal); }
+  .top .wrap { padding-bottom:0; }
+  .eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:11px; color:#9fc4cd; font-weight:600; margin:0 0 12px; }
+  h1 { font-size:29px; line-height:1.15; margin:0 0 6px; font-weight:700; letter-spacing:-.01em; }
+  .tag { margin:2px 0 12px; font-size:13px; color:#9fc4cd; font-weight:600; letter-spacing:.02em; }
+  .sub { color:#c4d2e0; font-size:15px; max-width:680px; margin:0; }
+  .meta { margin-top:22px; display:flex; gap:32px; flex-wrap:wrap; }
+  .meta div { font-size:13px; color:#c4d2e0; }
+  .meta b { display:block; font-size:22px; color:#fff; font-weight:700; margin-bottom:2px; }
+  .meta b small { font-size:12px; font-weight:500; color:#9fc4cd; }
+  section { margin-top:40px; }
+  h2 { font-size:18px; color:var(--navy-800); margin:0 0 4px; font-weight:700; }
+  h2 .rule { display:block; width:38px; height:3px; background:var(--teal); margin-top:8px; border-radius:2px; }
+  .lede { color:var(--mute); font-size:14px; margin:16px 0 18px; max-width:760px; }
+  .toolbar { display:flex; align-items:center; gap:16px; flex-wrap:wrap; margin:0 0 16px; }
+  .toggle { display:inline-flex; background:#e9eef3; border-radius:9px; padding:4px; gap:2px; }
+  .toggle button { border:0; background:transparent; cursor:pointer; font-family:inherit;
+    font-size:13px; font-weight:600; color:var(--mute); padding:8px 16px; border-radius:6px; transition:.15s; }
+  .toggle button.active { background:var(--navy-800); color:#fff; box-shadow:0 1px 3px rgba(0,20,60,.18); }
+  .toggle button:not(.active):hover { color:var(--navy-800); }
+  .toggle button:focus-visible { outline:2px solid var(--teal); outline-offset:2px; }
+  .count { font-size:13px; color:var(--mute); } .count b { color:var(--navy-800); }
+  .warn { background:#fdf6ec; border:1px solid #f0dcbf; border-left:4px solid #d98a1f; border-radius:8px;
+    padding:14px 18px; font-size:13.5px; color:#7a5417; margin:0 0 18px; }
+  .tablewrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; background:var(--paper); border:1px solid var(--line);
+    border-radius:8px; overflow:hidden; font-size:14px; }
+  thead th { background:var(--navy-800); color:#fff; text-align:left; padding:11px 12px;
+    font-weight:600; font-size:12px; letter-spacing:.03em; text-transform:uppercase; }
+  thead th.num { text-align:right; }
+  tbody td { padding:11px 12px; border-top:1px solid var(--line); vertical-align:top; }
+  tbody tr:nth-child(even) { background:#fafbfc; } tbody tr:hover { background:#eef4f5; }
+  .rank { font-weight:700; color:var(--teal); width:38px; }
+  .name { font-weight:600; color:var(--navy-800); }
+  .name .co { display:block; font-weight:400; color:var(--mute); font-size:12.5px; margin-top:1px; }
+  .num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .num.strong { font-weight:700; color:var(--ink); }
+  .rate { font-weight:600; color:var(--teal); }
+  .muted { color:#b3bcc8; }
+  .flags { white-space:nowrap; }
+  .flag { display:inline-block; font-size:10px; text-transform:uppercase; letter-spacing:.04em;
+    padding:2px 6px; border-radius:4px; font-weight:600; }
+  .flag-lown { background:#fdf0e2; color:#a15c14; }
+  .flag-new { background:#e4f3ec; color:#1f7a4d; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--mute); font-size:12px; }
+  @media (max-width:640px) { h1 { font-size:23px; } thead th, tbody td { padding:9px 8px; } .meta { gap:20px; } }
+</style></head><body>
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Headland &middot; Social Intelligence</p>
+  <h1>FTSE 100 CEO LinkedIn Engagement Ranking</h1>
+  <p class="tag">__WINDOW__</p>
+  <p class="sub">Chief executives ranked by mean engagement on their own original posts.</p>
+  <div class="meta">
+    <div><b id="mCeos">__N__</b><small>CEOs ranked</small></div>
+    <div><b id="mTop">-</b><small id="mTopName">top mean</small></div>
+    <div><b id="mMed">-</b><small>median across CEOs</small></div>
+  </div>
+</div></header>
+<div class="wrap">
+  <section>
+    <h2>Ranked by mean engagement per post<span class="rule"></span></h2>
+    <div class="toolbar">
+      <div class="toggle" role="group" aria-label="Post filter">
+        <button id="btnAll" class="active" onclick="setView('all')">All posts</button>
+        <button id="btnMin5" onclick="setView('min5')">Minimum 5 posts</button>
+      </div>
+      <span class="count" id="countLabel"></span>
+    </div>
+    <div class="warn" id="warnBox"></div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>#</th><th>CEO &amp; company</th><th class="num">Mean</th>
+        <th class="num">Median</th><th class="num">n</th><th class="num">Followers</th><th class="num">Per 1k</th><th></th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table></div>
+    <p class="lede">Engagement per post = reactions + comments + shares. "Per 1k" is mean engagement per 1,000 followers, a reach-adjusted view. Median and n sit alongside the mean so you can see how much each figure rests on. CEOs new to the cohort are marked <span class="flag flag-new">new</span>.</p>
+  </section>
+  <footer>Prepared by Headland &middot; Social Intelligence &middot; generated __GEN__. Engagement and follower counts are point-in-time.</footer>
+</div>
+<script>
+const DATA=__DATA__;
+const fmt=n=>n.toLocaleString('en-GB');
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function rowsFor(v){let r=DATA.filter(d=>v==='all'?true:d.n>=5);r.sort((a,b)=>b.mean-a.mean);return r;}
+function render(view){
+  const rows=rowsFor(view), tb=document.getElementById('tbody');
+  tb.innerHTML=rows.map((d,i)=>{
+    const f=[];
+    if(d.new) f.push('<span class="flag flag-new" title="New to the cohort">new</span>');
+    if(d.n<5) f.push('<span class="flag flag-lown" title="Fewer than 5 posts">low n</span>');
+    const rate=d.rate==null?'<span class="muted">&ndash;</span>':fmt(d.rate);
+    const foll=d.foll==null?'<span class="muted">n/a</span>':fmt(d.foll);
+    return `<tr><td class="rank">${i+1}</td>
+      <td class="name">${esc(d.name)}<span class="co">${esc(d.company)}</span></td>
+      <td class="num strong">${fmt(d.mean)}</td><td class="num">${fmt(d.median)}</td>
+      <td class="num">${d.n}</td><td class="num">${foll}</td>
+      <td class="num rate">${rate}</td><td class="flags">${f.join(' ')}</td></tr>`;
+  }).join('');
+  const means=rows.map(d=>d.mean).sort((a,b)=>a-b);
+  const med=means.length%2?means[(means.length-1)/2]:Math.round((means[means.length/2-1]+means[means.length/2])/2);
+  const lown=rows.filter(d=>d.n<5).length, newc=rows.filter(d=>d.new).length;
+  document.getElementById('mCeos').textContent=rows.length;
+  document.getElementById('mTop').textContent=fmt(rows[0].mean);
+  const tn=rows[0].name.split(' ');
+  document.getElementById('mTopName').textContent='top mean · '+tn[0]+' '+tn[tn.length-1];
+  document.getElementById('mMed').textContent=fmt(med);
+  document.getElementById('countLabel').innerHTML='Showing <b>'+rows.length+'</b> CEOs · '+newc+' new to cohort';
+  const w=document.getElementById('warnBox');
+  if(view==='all') w.innerHTML='Ranking by mean rewards a single strong post, so CEOs with very few posts can sit high on little evidence. <b>'+lown+'</b> of the '+rows.length+' CEOs have fewer than five posts and are marked. Switch to <b>Minimum 5 posts</b> for a steadier ranking.';
+  else w.innerHTML='Filtered to CEOs with at least five original posts, which removes the low-volume rankings that make the full list jumpy. <b>'+rows.length+'</b> CEOs remain, all on a workable base.';
+}
+function setView(v){
+  document.getElementById('btnAll').classList.toggle('active',v==='all');
+  document.getElementById('btnMin5').classList.toggle('active',v==='min5');
+  render(v);
+}
+render('all');
+</script></body></html>

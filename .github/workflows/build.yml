@@ -25,11 +25,35 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check Apify settings
+        env:
+          HAS_TOKEN: ${{ secrets.APIFY_TOKEN != '' }}
+          TOKEN_IN_VARS: ${{ vars.APIFY_TOKEN != '' }}
+          POSTS_TASK: ${{ secrets.APIFY_POSTS_TASK_ID || vars.APIFY_POSTS_TASK_ID }}
+          FOLLOWERS_TASK: ${{ secrets.APIFY_FOLLOWERS_TASK_ID || vars.APIFY_FOLLOWERS_TASK_ID }}
+        run: |
+          ok=true
+          if [ "$TOKEN_IN_VARS" = "true" ]; then
+            echo "::error::APIFY_TOKEN is saved on the Variables tab. Delete it there and add it on the Secrets tab instead, because Variables are not kept private."
+            ok=false
+          elif [ "$HAS_TOKEN" != "true" ]; then
+            echo "::error::APIFY_TOKEN not found. Add it under Settings > Secrets and variables > Actions > Secrets tab > New repository secret. Environment secrets (e.g. github-pages) are not visible to this step."
+            ok=false
+          fi
+          if [ -z "$POSTS_TASK" ]; then
+            echo "::error::APIFY_POSTS_TASK_ID not found. Add it as a repository secret or variable, spelled exactly APIFY_POSTS_TASK_ID."
+            ok=false
+          fi
+          if [ -z "$FOLLOWERS_TASK" ]; then
+            echo "::warning::APIFY_FOLLOWERS_TASK_ID not set, so follower counts will not refresh this run."
+          fi
+          $ok && echo "Apify settings found."
+
       - name: Build dashboard from the latest Apify runs
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          APIFY_POSTS_TASK_ID: ${{ secrets.APIFY_POSTS_TASK_ID }}
-          APIFY_FOLLOWERS_TASK_ID: ${{ secrets.APIFY_FOLLOWERS_TASK_ID }}
+          APIFY_POSTS_TASK_ID: ${{ secrets.APIFY_POSTS_TASK_ID || vars.APIFY_POSTS_TASK_ID }}
+          APIFY_FOLLOWERS_TASK_ID: ${{ secrets.APIFY_FOLLOWERS_TASK_ID || vars.APIFY_FOLLOWERS_TASK_ID }}
         run: python scripts/build.py
 
       - name: Save monthly snapshot

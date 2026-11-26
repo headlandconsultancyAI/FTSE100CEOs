@@ -39,6 +39,13 @@
   thead th { background:var(--navy-800); color:#fff; text-align:left; padding:11px 12px;
     font-weight:600; font-size:12px; letter-spacing:.03em; text-transform:uppercase; }
   thead th.num { text-align:right; }
+  thead th button { all:unset; cursor:pointer; display:inline-flex; align-items:center; gap:5px;
+    font:inherit; letter-spacing:inherit; text-transform:inherit; color:inherit; white-space:nowrap; }
+  thead th.num button { flex-direction:row-reverse; }
+  thead th button:hover { color:#cfe6eb; }
+  thead th button:focus-visible { outline:2px solid #9fc4cd; outline-offset:3px; border-radius:2px; }
+  thead th .arr { font-size:10px; opacity:.35; }
+  thead th[aria-sort="ascending"] .arr, thead th[aria-sort="descending"] .arr { opacity:1; color:#9fc4cd; }
   tbody td { padding:11px 12px; border-top:1px solid var(--line); vertical-align:top; }
   tbody tr:nth-child(even) { background:#fafbfc; } tbody tr:hover { background:#eef4f5; }
   .rank { font-weight:700; color:var(--teal); width:38px; }
@@ -69,7 +76,7 @@
 </div></header>
 <div class="wrap">
   <section>
-    <h2>Ranked by mean engagement per post<span class="rule"></span></h2>
+    <h2>Ranked by <span id="sortLabel">mean engagement per post</span><span class="rule"></span></h2>
     <div class="toolbar">
       <div class="toggle" role="group" aria-label="Post filter">
         <button id="btnAll" class="active" onclick="setView('all')">All posts</button>
@@ -79,11 +86,17 @@
     </div>
     <div class="warn" id="warnBox"></div>
     <div class="tablewrap"><table>
-      <thead><tr><th>#</th><th>CEO &amp; company</th><th class="num">Mean</th>
-        <th class="num">Median</th><th class="num">n</th><th class="num">Followers</th><th class="num">Per 1k</th><th></th></tr></thead>
+      <thead><tr><th>#</th>
+        <th data-key="company"><button type="button">CEO &amp; company<span class="arr"></span></button></th>
+        <th class="num" data-key="mean"><button type="button">Mean<span class="arr"></span></button></th>
+        <th class="num" data-key="median"><button type="button">Median<span class="arr"></span></button></th>
+        <th class="num" data-key="n"><button type="button">n<span class="arr"></span></button></th>
+        <th class="num" data-key="foll"><button type="button">Followers<span class="arr"></span></button></th>
+        <th class="num" data-key="rate"><button type="button">Per 1k<span class="arr"></span></button></th>
+        <th></th></tr></thead>
       <tbody id="tbody"></tbody>
     </table></div>
-    <p class="lede">Engagement per post = reactions + comments + shares. "Per 1k" is mean engagement per 1,000 followers, a reach-adjusted view. Median and n sit alongside the mean so you can see how much each figure rests on. CEOs new to the cohort are marked <span class="flag flag-new">new</span>.</p>
+    <p class="lede">Engagement per post = reactions + comments + shares. "Per 1k" is mean engagement per 1,000 followers, a reach-adjusted view. Median and n sit alongside the mean so you can see how much each figure rests on. CEOs new to the cohort are marked <span class="flag flag-new">new</span>. Click any column heading to sort by it, and click again to reverse the order.</p>
   </section>
   <footer>Prepared by Headland &middot; Social Intelligence &middot; generated __GEN__. Engagement and follower counts are point-in-time.</footer>
 </div>
@@ -91,9 +104,36 @@
 const DATA=__DATA__;
 const fmt=n=>n.toLocaleString('en-GB');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function rowsFor(v){let r=DATA.filter(d=>v==='all'?true:d.n>=5);r.sort((a,b)=>b.mean-a.mean);return r;}
-function render(view){
-  const rows=rowsFor(view), tb=document.getElementById('tbody');
+const LABELS={company:'company, A to Z',mean:'mean engagement per post',median:'median engagement per post',
+  n:'number of posts',foll:'followers',rate:'engagement per 1,000 followers'};
+const state={view:'all',key:'mean',dir:'desc'};
+function rowsFor(){
+  const r=DATA.filter(d=>state.view==='all'||d.n>=5), k=state.key, s=state.dir==='asc'?1:-1;
+  r.sort((a,b)=>{
+    const x=a[k], y=b[k];
+    if(x==null||y==null) return (x==null)-(y==null)||b.mean-a.mean;   // blanks always last
+    if(k==='company') return s*String(x).localeCompare(String(y),'en-GB',{sensitivity:'base'});
+    return s*(x-y)||b.mean-a.mean;
+  });
+  return r;
+}
+function sortBy(k){
+  if(state.key===k) state.dir=state.dir==='desc'?'asc':'desc';
+  else {state.key=k; state.dir=k==='company'?'asc':'desc';}
+  render();
+}
+document.querySelectorAll('thead th[data-key] button').forEach(b=>
+  b.addEventListener('click',()=>sortBy(b.parentElement.dataset.key)));
+function render(){
+  const view=state.view, rows=rowsFor(), tb=document.getElementById('tbody');
+  document.querySelectorAll('thead th[data-key]').forEach(th=>{
+    const on=th.dataset.key===state.key;
+    th.setAttribute('aria-sort',on?(state.dir==='asc'?'ascending':'descending'):'none');
+    th.querySelector('.arr').textContent=on?(state.dir==='asc'?'▲':'▼'):'↕';
+  });
+  const lab=LABELS[state.key];
+  document.getElementById('sortLabel').textContent=state.key==='company'
+    ?(state.dir==='asc'?lab:'company, Z to A'):(state.dir==='desc'?lab:lab+', lowest first');
   tb.innerHTML=rows.map((d,i)=>{
     const f=[];
     if(d.new) f.push('<span class="flag flag-new" title="New to the cohort">new</span>');
@@ -110,19 +150,21 @@ function render(view){
   const med=means.length%2?means[(means.length-1)/2]:Math.round((means[means.length/2-1]+means[means.length/2])/2);
   const lown=rows.filter(d=>d.n<5).length, newc=rows.filter(d=>d.new).length;
   document.getElementById('mCeos').textContent=rows.length;
-  document.getElementById('mTop').textContent=fmt(rows[0].mean);
-  const tn=rows[0].name.split(' ');
+  const top=rows.reduce((a,b)=>b.mean>a.mean?b:a);
+  document.getElementById('mTop').textContent=fmt(top.mean);
+  const tn=top.name.split(' ');
   document.getElementById('mTopName').textContent='top mean · '+tn[0]+' '+tn[tn.length-1];
   document.getElementById('mMed').textContent=fmt(med);
   document.getElementById('countLabel').innerHTML='Showing <b>'+rows.length+'</b> CEOs · '+newc+' new to cohort';
   const w=document.getElementById('warnBox');
-  if(view==='all') w.innerHTML='Ranking by mean rewards a single strong post, so CEOs with very few posts can sit high on little evidence. <b>'+lown+'</b> of the '+rows.length+' CEOs have fewer than five posts and are marked. Switch to <b>Minimum 5 posts</b> for a steadier ranking.';
+  if(view==='all') w.innerHTML='Averages reward a single strong post, so CEOs with very few posts can sit high on little evidence. <b>'+lown+'</b> of the '+rows.length+' CEOs have fewer than five posts and are marked. Switch to <b>Minimum 5 posts</b> for a steadier ranking.';
   else w.innerHTML='Filtered to CEOs with at least five original posts, which removes the low-volume rankings that make the full list jumpy. <b>'+rows.length+'</b> CEOs remain, all on a workable base.';
 }
 function setView(v){
+  state.view=v;
   document.getElementById('btnAll').classList.toggle('active',v==='all');
   document.getElementById('btnMin5').classList.toggle('active',v==='min5');
-  render(v);
+  render();
 }
-render('all');
+render();
 </script></body></html>

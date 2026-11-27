@@ -1,6 +1,6 @@
-# FTSE 100 CEO LinkedIn Engagement Ranking
+# FTSE 350 CEO LinkedIn Engagement Ranking
 
-A dashboard that ranks FTSE 100 chief executives by mean engagement on their own original LinkedIn posts over a rolling 12 months. It rebuilds itself every month from two Apify tasks and publishes to GitHub Pages.
+A dashboard that ranks FTSE 350 chief executives (FTSE 100 and FTSE 250) by mean engagement on their own original LinkedIn posts over a rolling 12 months. It rebuilds itself every month from two Apify tasks and publishes to GitHub Pages.
 
 ## How it works
 
@@ -43,7 +43,7 @@ Go to **Actions > Monthly dashboard build > Run workflow**. When it's done, the 
 
 ## Keeping it right
 
-- **Index changes.** FTSE Russell reviews the index in March, June, September and December. When a company joins or leaves, or a CEO changes, update `data/cohort.csv`. The next build regenerates `data/apify_urls.txt`, so paste the new list into both Apify tasks.
+- **Index changes.** FTSE Russell reviews the indices in March, June, September and December. When a company joins or leaves, moves between the FTSE 100 and FTSE 250, or a CEO changes, update `data/cohort.csv` (the `index` column says which index each CEO's company is in, and drives the filter on the page). Investment trusts with no CEO are left out. The next build regenerates `data/apify_urls.txt`, so paste the new list into both Apify tasks.
 - **New appointments.** Each run's summary lists anyone with two or more posts who isn't on the cohort list. That's your prompt to check for a new CEO.
 - **"New" badges.** Put `Y` in the `new_to_cohort` column to show the badge, and clear it once someone's settled in.
 - **Missing follower counts.** If a profile isn't returned, the page uses that CEO's last known count from `data/followers_fallback.csv`. You can type a count in there by hand, as was done for Andy Briggs.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the FTSE 100 CEO LinkedIn engagement dashboard.
+"""Build the FTSE 350 CEO LinkedIn engagement dashboard (FTSE 100 + FTSE 250).
 
 Pulls the latest successful run of the Apify posts task (and, if set, the
 followers task), matches posts to the CEO cohort in data/cohort.csv, and
@@ -177,6 +177,7 @@ def main():
         fallback[key] = {"company": key[0], "ceo": key[1], "followers": count, "as_of": as_of.isoformat()}
 
     new_flags = {(c["company"], c["ceo"]) for c in cohort if (c.get("new_to_cohort") or "").strip().upper() == "Y"}
+    index_of = {(c["company"], c["ceo"]): (c.get("index") or "").strip() for c in cohort}
     rows = []
     for (company, ceo), vals in per_ceo.items():
         fb = fallback.get((company, ceo))
@@ -191,6 +192,7 @@ def main():
             "foll": foll,
             "rate": round(mean / foll * 1000, 1) if foll else None,
             "new": (company, ceo) in new_flags,
+            "idx": index_of.get((company, ceo), ""),
         })
     rows.sort(key=lambda r: r["mean"], reverse=True)
     if not rows:
@@ -203,6 +205,7 @@ def main():
         "ceos_ranked": len(rows),
         "posts": sum(r["n"] for r in rows),
         "with_followers": sum(1 for r in rows if r["foll"]),
+        "by_index": {i: sum(1 for r in rows if r["idx"] == i) for i in sorted({r["idx"] for r in rows})},
     }
     SITE.mkdir(exist_ok=True)
     HISTORY.mkdir(parents=True, exist_ok=True)
@@ -231,8 +234,9 @@ def main():
     no_foll = [r["name"] for r in rows if not r["foll"]]
     new_names = sorted(((n, k) for n, k in unmatched.items() if k >= 2), key=lambda x: -x[1])
     lines = [
-        f"## FTSE 100 CEO dashboard, {fmt(as_of)}",
-        f"- CEOs ranked: **{meta['ceos_ranked']}**, original posts: **{meta['posts']}**",
+        f"## FTSE 350 CEO dashboard, {fmt(as_of)}",
+        f"- CEOs ranked: **{meta['ceos_ranked']}** ("
+        + ", ".join(f"{k}: {v}" for k, v in meta["by_index"].items()) + f"), original posts: **{meta['posts']}**",
         f"- Window: {fmt(start)} to {fmt(as_of)}",
         f"- Fresh follower counts this run: {len(fresh)}; ranked CEOs with no count: {', '.join(no_foll) or 'none'}",
         f"- Cohort CEOs with a URL but no posts in the window: {len(no_posts)}",

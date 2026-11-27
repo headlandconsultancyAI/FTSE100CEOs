@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FTSE 100 CEO LinkedIn Engagement Ranking — __TITLE_SUFFIX__</title>
+<title>FTSE 350 CEO LinkedIn Engagement Ranking — __TITLE_SUFFIX__</title>
 <style>
   :root { --navy-900:#001740; --navy-800:#00244A; --navy-700:#00355F; --teal:#2F6F7A;
     --paper:#fff; --ink:#1b2733; --line:#e4e8ee; --mute:#6a7889; --tint:#f5f7fa; }
@@ -60,12 +60,15 @@
     padding:2px 6px; border-radius:4px; font-weight:600; }
   .flag-lown { background:#fdf0e2; color:#a15c14; }
   .flag-new { background:#e4f3ec; color:#1f7a4d; }
+  .idx { display:inline-block; margin-left:6px; font-size:10px; font-weight:600; letter-spacing:.04em;
+    padding:1px 5px; border-radius:4px; background:#e9eef3; color:var(--navy-800); vertical-align:1px; }
+  .idx.i250 { background:#e3f1f4; color:#1d6b78; }
   footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--mute); font-size:12px; }
   @media (max-width:640px) { h1 { font-size:23px; } thead th, tbody td { padding:9px 8px; } .meta { gap:20px; } }
 </style></head><body>
 <header class="top"><div class="wrap">
   <p class="eyebrow">Headland &middot; Social Intelligence</p>
-  <h1>FTSE 100 CEO LinkedIn Engagement Ranking</h1>
+  <h1>FTSE 350 CEO LinkedIn Engagement Ranking</h1>
   <p class="tag">__WINDOW__</p>
   <p class="sub">Chief executives ranked by mean engagement on their own original posts.</p>
   <div class="meta">
@@ -78,6 +81,11 @@
   <section>
     <h2>Ranked by <span id="sortLabel">mean engagement per post</span><span class="rule"></span></h2>
     <div class="toolbar">
+      <div class="toggle" role="group" aria-label="Index filter">
+        <button id="idxAll" class="active" onclick="setIdx('all')">FTSE 350</button>
+        <button id="idx100" onclick="setIdx('FTSE 100')">FTSE 100</button>
+        <button id="idx250" onclick="setIdx('FTSE 250')">FTSE 250</button>
+      </div>
       <div class="toggle" role="group" aria-label="Post filter">
         <button id="btnAll" class="active" onclick="setView('all')">All posts</button>
         <button id="btnMin5" onclick="setView('min5')">Minimum 5 posts</button>
@@ -96,7 +104,7 @@
         <th></th></tr></thead>
       <tbody id="tbody"></tbody>
     </table></div>
-    <p class="lede">Engagement per post = reactions + comments + shares. "Per 1k" is mean engagement per 1,000 followers, a reach-adjusted view. Median and n sit alongside the mean so you can see how much each figure rests on. CEOs new to the cohort are marked <span class="flag flag-new">new</span>. Click any column heading to sort by it, and click again to reverse the order.</p>
+    <p class="lede">Engagement per post = reactions + comments + shares. "Per 1k" is mean engagement per 1,000 followers, a reach-adjusted view. Median and n sit alongside the mean so you can see how much each figure rests on. Each company is tagged with its index, and you can switch between the full FTSE 350, the FTSE 100 and the FTSE 250. CEOs new to the cohort are marked <span class="flag flag-new">new</span>. Click any column heading to sort by it, and click again to reverse the order.</p>
   </section>
   <footer>Prepared by Headland &middot; Social Intelligence &middot; generated __GEN__. Engagement and follower counts are point-in-time.</footer>
 </div>
@@ -106,9 +114,9 @@ const fmt=n=>n.toLocaleString('en-GB');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const LABELS={company:'company, A to Z',mean:'mean engagement per post',median:'median engagement per post',
   n:'number of posts',foll:'followers',rate:'engagement per 1,000 followers'};
-const state={view:'all',key:'mean',dir:'desc'};
+const state={view:'all',idx:'all',key:'mean',dir:'desc'};
 function rowsFor(){
-  const r=DATA.filter(d=>state.view==='all'||d.n>=5), k=state.key, s=state.dir==='asc'?1:-1;
+  const r=DATA.filter(d=>(state.view==='all'||d.n>=5)&&(state.idx==='all'||d.idx===state.idx)), k=state.key, s=state.dir==='asc'?1:-1;
   r.sort((a,b)=>{
     const x=a[k], y=b[k];
     if(x==null||y==null) return (x==null)-(y==null)||b.mean-a.mean;   // blanks always last
@@ -141,24 +149,32 @@ function render(){
     const rate=d.rate==null?'<span class="muted">&ndash;</span>':fmt(d.rate);
     const foll=d.foll==null?'<span class="muted">n/a</span>':fmt(d.foll);
     return `<tr><td class="rank">${i+1}</td>
-      <td class="name">${esc(d.name)}<span class="co">${esc(d.company)}</span></td>
+      <td class="name">${esc(d.name)}<span class="co">${esc(d.company)}${d.idx?`<span class="idx${d.idx==='FTSE 250'?' i250':''}">${esc(d.idx.replace('FTSE ',''))}</span>`:''}</span></td>
       <td class="num strong">${fmt(d.mean)}</td><td class="num">${fmt(d.median)}</td>
       <td class="num">${d.n}</td><td class="num">${foll}</td>
       <td class="num rate">${rate}</td><td class="flags">${f.join(' ')}</td></tr>`;
   }).join('');
   const means=rows.map(d=>d.mean).sort((a,b)=>a-b);
-  const med=means.length%2?means[(means.length-1)/2]:Math.round((means[means.length/2-1]+means[means.length/2])/2);
+  const med=!means.length?0:means.length%2?means[(means.length-1)/2]:Math.round((means[means.length/2-1]+means[means.length/2])/2);
   const lown=rows.filter(d=>d.n<5).length, newc=rows.filter(d=>d.new).length;
   document.getElementById('mCeos').textContent=rows.length;
-  const top=rows.reduce((a,b)=>b.mean>a.mean?b:a);
+  const top=rows.length?rows.reduce((a,b)=>b.mean>a.mean?b:a):{mean:0,name:'-'};
   document.getElementById('mTop').textContent=fmt(top.mean);
   const tn=top.name.split(' ');
   document.getElementById('mTopName').textContent='top mean · '+tn[0]+' '+tn[tn.length-1];
   document.getElementById('mMed').textContent=fmt(med);
-  document.getElementById('countLabel').innerHTML='Showing <b>'+rows.length+'</b> CEOs · '+newc+' new to cohort';
+  const scope=state.idx==='all'?'FTSE 350':state.idx;
+  document.getElementById('countLabel').innerHTML='Showing <b>'+rows.length+'</b> '+scope+' CEOs · '+newc+' new to cohort';
   const w=document.getElementById('warnBox');
   if(view==='all') w.innerHTML='Averages reward a single strong post, so CEOs with very few posts can sit high on little evidence. <b>'+lown+'</b> of the '+rows.length+' CEOs have fewer than five posts and are marked. Switch to <b>Minimum 5 posts</b> for a steadier ranking.';
   else w.innerHTML='Filtered to CEOs with at least five original posts, which removes the low-volume rankings that make the full list jumpy. <b>'+rows.length+'</b> CEOs remain, all on a workable base.';
+}
+function setIdx(v){
+  state.idx=v;
+  document.getElementById('idxAll').classList.toggle('active',v==='all');
+  document.getElementById('idx100').classList.toggle('active',v==='FTSE 100');
+  document.getElementById('idx250').classList.toggle('active',v==='FTSE 250');
+  render();
 }
 function setView(v){
   state.view=v;

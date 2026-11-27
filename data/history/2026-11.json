@@ -1,41 +1,37 @@
 {
  "meta": {
-  "as_of": "2026-11-26",
-  "window_start": "2025-11-26",
-  "ceos_ranked": 56,
-  "posts": 1075,
-  "with_followers": 56
+  "as_of": "2026-11-27",
+  "window_start": "2025-11-27",
+  "ceos_ranked": 139,
+  "posts": 2042,
+  "with_followers": 139,
+  "by_index": {
+   "FTSE 100": 56,
+   "FTSE 250": 83
+  }
  },
  "rows": [
   {
    "name": "Wael Sawan",
    "company": "Shell",
    "mean": 2945,
-   "median": 1978,
+   "median": 1981,
    "n": 7,
-   "foll": 133553,
+   "foll": 133668,
    "rate": 22.0,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Meg O'Neill",
    "company": "BP",
-   "mean": 2819,
+   "mean": 2859,
    "median": 2071,
    "n": 23,
-   "foll": 122277,
-   "rate": 23.1,
-   "new": false
-  },
-  {
-   "name": "Tufan Erginbilgic",
-   "company": "Rolls-Royce Holdings",
-   "mean": 2176,
-   "median": 2024,
-   "n": 7,
-   "foll": 92846,
-   "rate": 23.4,
-   "new": false
+   "foll": 122541,
+   "rate": 23.3,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Margherita Della Valle",
@@ -43,9 +39,32 @@
    "mean": 2023,
    "median": 2202,
    "n": 3,
-   "foll": 42124,
+   "foll": 42127,
    "rate": 48.0,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Tufan Erginbilgic",
+   "company": "Rolls-Royce Holdings",
+   "mean": 2012,
+   "median": 1740,
+   "n": 8,
+   "foll": 92953,
+   "rate": 21.6,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Gavin Slark",
+   "company": "Travis Perkins",
+   "mean": 1851,
+   "median": 1851,
+   "n": 1,
+   "foll": 1689,
+   "rate": 1095.9,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Fernando Fernandez",
@@ -53,39 +72,43 @@
    "mean": 1654,
    "median": 1139,
    "n": 21,
-   "foll": 115325,
+   "foll": 115446,
    "rate": 14.3,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Joanne McNamara",
    "company": "British Land",
-   "mean": 1598,
-   "median": 960,
+   "mean": 1600,
+   "median": 970,
    "n": 5,
-   "foll": 5531,
-   "rate": 289.0,
-   "new": true
+   "foll": 5562,
+   "rate": 287.7,
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "Joshua Schulman",
    "company": "Burberry Group",
-   "mean": 1326,
+   "mean": 1328,
    "median": 1334,
    "n": 4,
-   "foll": 7341,
-   "rate": 180.7,
-   "new": false
+   "foll": 7349,
+   "rate": 180.6,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Stuart Machin",
    "company": "Marks & Spencer Group plc",
-   "mean": 1206,
-   "median": 1009,
-   "n": 37,
-   "foll": 200237,
-   "rate": 6.0,
-   "new": false
+   "mean": 1225,
+   "median": 1020,
+   "n": 36,
+   "foll": 200284,
+   "rate": 6.1,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Kris Licht",
@@ -93,9 +116,10 @@
    "mean": 1125,
    "median": 1397,
    "n": 9,
-   "foll": 17449,
-   "rate": 64.5,
-   "new": false
+   "foll": 17469,
+   "rate": 64.4,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Deepak Nath",
@@ -103,49 +127,43 @@
    "mean": 1124,
    "median": 1122,
    "n": 8,
-   "foll": 14653,
+   "foll": 14656,
    "rate": 76.7,
-   "new": false
-  },
-  {
-   "name": "Allison Kirkby",
-   "company": "BT Group",
-   "mean": 1113,
-   "median": 916,
-   "n": 18,
-   "foll": 51447,
-   "rate": 21.6,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "C S Venkatakrishnan",
    "company": "Barclays",
-   "mean": 1089,
-   "median": 791,
-   "n": 38,
-   "foll": 178353,
-   "rate": 6.1,
-   "new": false
+   "mean": 1108,
+   "median": 823,
+   "n": 37,
+   "foll": 178423,
+   "rate": 6.2,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Cindy Rose",
    "company": "WPP",
-   "mean": 1067,
-   "median": 885,
-   "n": 34,
-   "foll": 65745,
-   "rate": 16.2,
-   "new": false
+   "mean": 1074,
+   "median": 916,
+   "n": 33,
+   "foll": 65789,
+   "rate": 16.3,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
-   "name": "Zoran Bogdanović",
-   "company": "Coca-Cola HBC",
-   "mean": 1060,
-   "median": 1055,
-   "n": 3,
-   "foll": 6771,
-   "rate": 156.5,
-   "new": false
+   "name": "Allison Kirkby",
+   "company": "BT Group",
+   "mean": 1070,
+   "median": 888,
+   "n": 19,
+   "foll": 51489,
+   "rate": 20.8,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Paul Thwaite",
@@ -153,29 +171,43 @@
    "mean": 1057,
    "median": 717,
    "n": 29,
-   "foll": 65535,
+   "foll": 65587,
    "rate": 16.1,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Simon Roberts",
    "company": "Sainsbury’s",
-   "mean": 923,
+   "mean": 924,
    "median": 558,
    "n": 12,
-   "foll": 44345,
+   "foll": 44403,
    "rate": 20.8,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Simon Trott",
    "company": "Rio Tinto",
-   "mean": 915,
+   "mean": 916,
    "median": 895,
    "n": 10,
-   "foll": 60702,
+   "foll": 60750,
    "rate": 15.1,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Zoran Bogdanović",
+   "company": "Coca-Cola HBC",
+   "mean": 913,
+   "median": 899,
+   "n": 4,
+   "foll": 6866,
+   "rate": 132.9,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Christos Gavalas",
@@ -183,9 +215,10 @@
    "mean": 826,
    "median": 826,
    "n": 1,
-   "foll": 3172,
-   "rate": 260.4,
-   "new": true
+   "foll": 3178,
+   "rate": 259.9,
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "Sunil Taldar",
@@ -193,9 +226,10 @@
    "mean": 798,
    "median": 839,
    "n": 4,
-   "foll": 4634,
-   "rate": 172.2,
-   "new": true
+   "foll": 4649,
+   "rate": 171.7,
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "Charlie Nunn",
@@ -203,19 +237,54 @@
    "mean": 789,
    "median": 540,
    "n": 33,
-   "foll": 100530,
+   "foll": 100575,
    "rate": 7.8,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Phil Bentley",
+   "company": "Mitie",
+   "mean": 754,
+   "median": 754,
+   "n": 1,
+   "foll": 3262,
+   "rate": 231.1,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Said Darwazah",
+   "company": "Hikma Pharmaceuticals",
+   "mean": 750,
+   "median": 719,
+   "n": 17,
+   "foll": 6175,
+   "rate": 121.5,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Philip Hoare",
    "company": "Balfour Beatty",
-   "mean": 726,
+   "mean": 727,
    "median": 575,
    "n": 18,
-   "foll": 48136,
+   "foll": 48146,
    "rate": 15.1,
-   "new": true
+   "new": true,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Mark Dearnley",
+   "company": "Hays",
+   "mean": 719,
+   "median": 492,
+   "n": 6,
+   "foll": 3707,
+   "rate": 193.9,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Chris O’Shea",
@@ -223,49 +292,87 @@
    "mean": 706,
    "median": 482,
    "n": 14,
-   "foll": 22510,
+   "foll": 22523,
    "rate": 31.3,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
-   "name": "Charles Woodburn",
-   "company": "BAE Systems",
-   "mean": 704,
-   "median": 650,
-   "n": 22,
-   "foll": 44287,
-   "rate": 15.9,
-   "new": false
+   "name": "John Hunter",
+   "company": "Big Yellow Group",
+   "mean": 702,
+   "median": 702,
+   "n": 1,
+   "foll": 1537,
+   "rate": 456.7,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Fredrik Tønnesen",
+   "company": "Currys",
+   "mean": 690,
+   "median": 671,
+   "n": 5,
+   "foll": 7644,
+   "rate": 90.3,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Bill Winters",
    "company": "Standard Chartered",
-   "mean": 687,
+   "mean": 684,
    "median": 501,
    "n": 78,
-   "foll": 148171,
+   "foll": 148212,
    "rate": 4.6,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
-   "name": "Elie Maalouf",
-   "company": "Intercontinental Hotels Group",
+   "name": "Charles Woodburn",
+   "company": "BAE Systems",
    "mean": 676,
-   "median": 629,
-   "n": 25,
-   "foll": 16115,
-   "rate": 42.0,
-   "new": false
+   "median": 636,
+   "n": 23,
+   "foll": 44301,
+   "rate": 15.3,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Michael Murray",
+   "company": "Frasers Group",
+   "mean": 674,
+   "median": 576,
+   "n": 22,
+   "foll": 50271,
+   "rate": 13.4,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Dean Banks",
    "company": "Barratt Redrow",
-   "mean": 664,
+   "mean": 665,
    "median": 413,
    "n": 6,
-   "foll": 13078,
+   "foll": 13082,
    "rate": 50.8,
-   "new": true
+   "new": true,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Elie Maalouf",
+   "company": "Intercontinental Hotels Group",
+   "mean": 661,
+   "median": 628,
+   "n": 26,
+   "foll": 16199,
+   "rate": 40.8,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Anil Wadhwani",
@@ -273,9 +380,32 @@
    "mean": 639,
    "median": 517,
    "n": 13,
-   "foll": 18420,
+   "foll": 18433,
    "rate": 34.7,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Clo Moriarty",
+   "company": "Dunelm Group",
+   "mean": 638,
+   "median": 382,
+   "n": 10,
+   "foll": 5051,
+   "rate": 126.3,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Matthew Moulding",
+   "company": "THG",
+   "mean": 629,
+   "median": 711,
+   "n": 9,
+   "foll": 39555,
+   "rate": 15.9,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Martin Pibworth",
@@ -283,9 +413,10 @@
    "mean": 618,
    "median": 591,
    "n": 9,
-   "foll": 5844,
+   "foll": 5850,
    "rate": 105.7,
-   "new": true
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "Zoe Yujnovich",
@@ -293,19 +424,54 @@
    "mean": 613,
    "median": 584,
    "n": 18,
-   "foll": 22483,
-   "rate": 27.3,
-   "new": false
+   "foll": 22527,
+   "rate": 27.2,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Ian Brown",
+   "company": "Trainline",
+   "mean": 593,
+   "median": 310,
+   "n": 8,
+   "foll": 4529,
+   "rate": 130.9,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Dalton Philips",
+   "company": "Greencore",
+   "mean": 584,
+   "median": 533,
+   "n": 10,
+   "foll": 5625,
+   "rate": 103.8,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Kenton Jarvis",
    "company": "easyJet plc",
-   "mean": 582,
+   "mean": 583,
    "median": 457,
    "n": 56,
-   "foll": 49926,
+   "foll": 50004,
    "rate": 11.7,
-   "new": true
+   "new": true,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Catherine Faiers",
+   "company": "Moonpig",
+   "mean": 581,
+   "median": 581,
+   "n": 1,
+   "foll": 7476,
+   "rate": 77.7,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Tadeu Marroco",
@@ -313,9 +479,10 @@
    "mean": 568,
    "median": 560,
    "n": 26,
-   "foll": 27680,
+   "foll": 27690,
    "rate": 20.5,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Brian McNamara",
@@ -325,17 +492,41 @@
    "n": 5,
    "foll": 32480,
    "rate": 17.4,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Richard Stearn",
+   "company": "Berkeley Group Holdings",
+   "mean": 555,
+   "median": 555,
+   "n": 1,
+   "foll": 924,
+   "rate": 600.6,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Aki Hussain",
    "company": "Hiscox",
-   "mean": 548,
+   "mean": 550,
    "median": 441,
    "n": 17,
-   "foll": 12455,
-   "rate": 44.0,
-   "new": false
+   "foll": 12475,
+   "rate": 44.1,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Francis Van Parys",
+   "company": "Oxford Nanopore Technologies",
+   "mean": 512,
+   "median": 388,
+   "n": 6,
+   "foll": 8598,
+   "rate": 59.5,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Thierry Garnier",
@@ -343,19 +534,32 @@
    "mean": 494,
    "median": 395,
    "n": 23,
-   "foll": 28025,
+   "foll": 28053,
    "rate": 17.6,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Enrique Alvarez Labiano",
+   "company": "OSB Group",
+   "mean": 484,
+   "median": 370,
+   "n": 13,
+   "foll": 7497,
+   "rate": 64.5,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Jonny Mason",
    "company": "Convatec Group",
-   "mean": 475,
+   "mean": 476,
    "median": 466,
    "n": 17,
-   "foll": 4529,
-   "rate": 104.9,
-   "new": true
+   "foll": 4539,
+   "rate": 104.8,
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "Iván Arriagada",
@@ -363,9 +567,10 @@
    "mean": 466,
    "median": 362,
    "n": 13,
-   "foll": 59660,
+   "foll": 59682,
    "rate": 7.8,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Colin Godfrey",
@@ -375,7 +580,8 @@
    "n": 2,
    "foll": 1229,
    "rate": 378.4,
-   "new": true
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "Julia Hoggett",
@@ -383,19 +589,32 @@
    "mean": 450,
    "median": 398,
    "n": 29,
-   "foll": 32441,
+   "foll": 32477,
    "rate": 13.9,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
-   "name": "Andy Briggs",
-   "company": "Standard Life",
-   "mean": 419,
-   "median": 286,
-   "n": 28,
-   "foll": 8886,
-   "rate": 47.2,
-   "new": false
+   "name": "Graham Charlton",
+   "company": "Softcat",
+   "mean": 449,
+   "median": 500,
+   "n": 3,
+   "foll": 4406,
+   "rate": 102.0,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Henry Birch",
+   "company": "Halfords",
+   "mean": 424,
+   "median": 378,
+   "n": 6,
+   "foll": 11224,
+   "rate": 37.7,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Omar Abbosh",
@@ -403,9 +622,10 @@
    "mean": 418,
    "median": 368,
    "n": 59,
-   "foll": 45731,
+   "foll": 45739,
    "rate": 9.1,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Régis Schultz",
@@ -415,7 +635,19 @@
    "n": 16,
    "foll": 82026,
    "rate": 5.1,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Stuart Togwell",
+   "company": "Kier Group",
+   "mean": 411,
+   "median": 427,
+   "n": 21,
+   "foll": 8375,
+   "rate": 49.1,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Andrew Neilson",
@@ -423,9 +655,10 @@
    "mean": 407,
    "median": 409,
    "n": 3,
-   "foll": 1825,
-   "rate": 223.2,
-   "new": true
+   "foll": 1828,
+   "rate": 222.8,
+   "new": true,
+   "idx": "FTSE 100"
   },
   {
    "name": "António Simões",
@@ -433,9 +666,54 @@
    "mean": 394,
    "median": 386,
    "n": 27,
-   "foll": 73616,
+   "foll": 73621,
    "rate": 5.4,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Patrick Coveney",
+   "company": "SSP Group",
+   "mean": 385,
+   "median": 377,
+   "n": 12,
+   "foll": 17611,
+   "rate": 21.9,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Adam Daniels",
+   "company": "Vistry Group",
+   "mean": 385,
+   "median": 355,
+   "n": 5,
+   "foll": 9118,
+   "rate": 42.2,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "David Paja",
+   "company": "Coats Group",
+   "mean": 384,
+   "median": 358,
+   "n": 10,
+   "foll": 3877,
+   "rate": 99.0,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Tjeerd Jegen",
+   "company": "B&M",
+   "mean": 383,
+   "median": 370,
+   "n": 17,
+   "foll": 7340,
+   "rate": 52.2,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Roy Twite",
@@ -443,19 +721,98 @@
    "mean": 382,
    "median": 396,
    "n": 3,
-   "foll": 2693,
-   "rate": 141.8,
-   "new": false
+   "foll": 2696,
+   "rate": 141.7,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Nicholas Kirk",
+   "company": "Michael Page",
+   "mean": 372,
+   "median": 240,
+   "n": 24,
+   "foll": 20419,
+   "rate": 18.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Andy Briggs",
+   "company": "Standard Life",
+   "mean": 362,
+   "median": 272,
+   "n": 28,
+   "foll": 8886,
+   "rate": 40.8,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Alex Whitehouse",
+   "company": "Premier Foods",
+   "mean": 362,
+   "median": 362,
+   "n": 2,
+   "foll": 1462,
+   "rate": 247.3,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Ije Nwokorie",
+   "company": "Dr. Martens",
+   "mean": 354,
+   "median": 308,
+   "n": 6,
+   "foll": 56445,
+   "rate": 6.3,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Mike Danson",
+   "company": "GlobalData",
+   "mean": 352,
+   "median": 352,
+   "n": 1,
+   "foll": 1130,
+   "rate": 311.5,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Andrea Rossi",
    "company": "M&G",
-   "mean": 355,
-   "median": 320,
-   "n": 50,
-   "foll": 19566,
-   "rate": 18.2,
-   "new": false
+   "mean": 350,
+   "median": 318,
+   "n": 51,
+   "foll": 19598,
+   "rate": 17.8,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Martin Vohánka",
+   "company": "Eurowag",
+   "mean": 348,
+   "median": 269,
+   "n": 47,
+   "foll": 15001,
+   "rate": 23.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Roisin Currie",
+   "company": "Greggs",
+   "mean": 335,
+   "median": 335,
+   "n": 1,
+   "foll": 4694,
+   "rate": 71.4,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Mark FitzPatrick",
@@ -463,9 +820,65 @@
    "mean": 328,
    "median": 275,
    "n": 14,
-   "foll": 20126,
+   "foll": 20139,
    "rate": 16.3,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Luc van Ravenstein",
+   "company": "Elementis",
+   "mean": 328,
+   "median": 328,
+   "n": 2,
+   "foll": 3166,
+   "rate": 103.4,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Alex Vaughan",
+   "company": "Costain Group",
+   "mean": 326,
+   "median": 326,
+   "n": 2,
+   "foll": 6118,
+   "rate": 53.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Anthony Kirby",
+   "company": "Serco",
+   "mean": 326,
+   "median": 306,
+   "n": 11,
+   "foll": 1958,
+   "rate": 166.3,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Stella David",
+   "company": "Entain",
+   "mean": 325,
+   "median": 325,
+   "n": 2,
+   "foll": 3609,
+   "rate": 90.1,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Duncan Tait",
+   "company": "Inchcape",
+   "mean": 318,
+   "median": 264,
+   "n": 21,
+   "foll": 13387,
+   "rate": 23.7,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Breon Corcoran",
@@ -473,19 +886,98 @@
    "mean": 314,
    "median": 267,
    "n": 3,
-   "foll": 4115,
-   "rate": 76.3,
-   "new": false
+   "foll": 4119,
+   "rate": 76.2,
+   "new": false,
+   "idx": "FTSE 100"
   },
   {
    "name": "Stephen Hare",
    "company": "Sage",
-   "mean": 312,
+   "mean": 313,
    "median": 243,
    "n": 30,
-   "foll": 26812,
-   "rate": 11.6,
-   "new": false
+   "foll": 26819,
+   "rate": 11.7,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Jim Fairbairn",
+   "company": "Bodycote",
+   "mean": 308,
+   "median": 308,
+   "n": 2,
+   "foll": 2772,
+   "rate": 110.9,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Liam Condon",
+   "company": "Johnson Matthey",
+   "mean": 304,
+   "median": 331,
+   "n": 11,
+   "foll": 24073,
+   "rate": 12.6,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Simon Pryce",
+   "company": "RS Group",
+   "mean": 303,
+   "median": 266,
+   "n": 5,
+   "foll": 6510,
+   "rate": 46.5,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Nat Rothschild",
+   "company": "Volex",
+   "mean": 295,
+   "median": 239,
+   "n": 4,
+   "foll": 3667,
+   "rate": 80.5,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Jennie Daly",
+   "company": "Taylor Wimpey",
+   "mean": 288,
+   "median": 246,
+   "n": 13,
+   "foll": 14493,
+   "rate": 19.8,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Adrian Blair",
+   "company": "Trustpilot",
+   "mean": 280,
+   "median": 214,
+   "n": 24,
+   "foll": 11431,
+   "rate": 24.5,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Steve Wadey",
+   "company": "Qinetiq",
+   "mean": 279,
+   "median": 274,
+   "n": 10,
+   "foll": 5974,
+   "rate": 46.7,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Frank van Zanten",
@@ -493,9 +985,21 @@
    "mean": 276,
    "median": 276,
    "n": 5,
-   "foll": 3466,
+   "foll": 3468,
    "rate": 79.5,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "James Wroath",
+   "company": "Keller Group",
+   "mean": 264,
+   "median": 284,
+   "n": 22,
+   "foll": 3424,
+   "rate": 77.2,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Johnny Thomson",
@@ -504,8 +1008,20 @@
    "median": 260,
    "n": 2,
    "foll": 1221,
-   "rate": 212.5,
-   "new": false
+   "rate": 213.3,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Jonathan Murphy",
+   "company": "Derwent London",
+   "mean": 260,
+   "median": 144,
+   "n": 4,
+   "foll": 4087,
+   "rate": 63.7,
+   "new": true,
+   "idx": "FTSE 250"
   },
   {
    "name": "Archil Gachechiladze",
@@ -513,39 +1029,153 @@
    "mean": 257,
    "median": 317,
    "n": 3,
-   "foll": 3079,
-   "rate": 83.5,
-   "new": true
+   "foll": 3086,
+   "rate": 83.3,
+   "new": true,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Nicola Frampton",
+   "company": "Domino's Pizza",
+   "mean": 255,
+   "median": 211,
+   "n": 14,
+   "foll": 3167,
+   "rate": 80.4,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Giuseppe Mastrolia",
+   "company": "Princes Group",
+   "mean": 255,
+   "median": 185,
+   "n": 9,
+   "foll": 10392,
+   "rate": 24.6,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Mark Allan",
    "company": "Land Securities Group",
-   "mean": 244,
+   "mean": 245,
    "median": 254,
    "n": 13,
-   "foll": 10216,
-   "rate": 23.9,
-   "new": false
+   "foll": 10220,
+   "rate": 24.0,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Sam Mudd",
+   "company": "Bytes Technology Group",
+   "mean": 243,
+   "median": 266,
+   "n": 11,
+   "foll": 5933,
+   "rate": 40.9,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "André Lacroix",
    "company": "Intertek Group",
-   "mean": 241,
+   "mean": 242,
    "median": 196,
    "n": 117,
-   "foll": 18888,
+   "foll": 18912,
    "rate": 12.8,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Simon Dodd",
+   "company": "Young & Co's Brewery",
+   "mean": 241,
+   "median": 206,
+   "n": 55,
+   "foll": 14073,
+   "rate": 17.1,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Milena Mondini de Focatiis",
    "company": "Admiral Group",
-   "mean": 239,
-   "median": 239,
+   "mean": 240,
+   "median": 240,
    "n": 2,
-   "foll": 3084,
-   "rate": 77.5,
-   "new": false
+   "foll": 3085,
+   "rate": 77.6,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Phil Caldwell",
+   "company": "Ceres Power",
+   "mean": 235,
+   "median": 250,
+   "n": 4,
+   "foll": 4719,
+   "rate": 49.7,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "David Zruia",
+   "company": "Plus500",
+   "mean": 233,
+   "median": 230,
+   "n": 10,
+   "foll": 5631,
+   "rate": 41.4,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Nicolas Breteau",
+   "company": "TP ICAP",
+   "mean": 224,
+   "median": 168,
+   "n": 25,
+   "foll": 4689,
+   "rate": 47.7,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Michael Summersgill",
+   "company": "AJ Bell",
+   "mean": 221,
+   "median": 184,
+   "n": 30,
+   "foll": 6355,
+   "rate": 34.8,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Christian Schmitz",
+   "company": "International Workplace Group",
+   "mean": 218,
+   "median": 165,
+   "n": 14,
+   "foll": 6865,
+   "rate": 31.8,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Steven Levin",
+   "company": "Quilter",
+   "mean": 218,
+   "median": 235,
+   "n": 5,
+   "foll": 2348,
+   "rate": 92.8,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "David Sleath",
@@ -553,9 +1183,120 @@
    "mean": 216,
    "median": 216,
    "n": 2,
-   "foll": 2063,
-   "rate": 104.5,
-   "new": false
+   "foll": 2070,
+   "rate": 104.1,
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Andrew Belshaw",
+   "company": "Gamma Communications",
+   "mean": 212,
+   "median": 172,
+   "n": 8,
+   "foll": 2011,
+   "rate": 105.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Robyn Grew",
+   "company": "Man Group",
+   "mean": 210,
+   "median": 208,
+   "n": 6,
+   "foll": 12976,
+   "rate": 16.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Andrew King",
+   "company": "Mondi",
+   "mean": 210,
+   "median": 210,
+   "n": 2,
+   "foll": 3463,
+   "rate": 60.6,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Tom Greenwood",
+   "company": "Helios Towers",
+   "mean": 208,
+   "median": 199,
+   "n": 37,
+   "foll": 11906,
+   "rate": 17.5,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Eduardo Landin",
+   "company": "Hochschild Mining",
+   "mean": 193,
+   "median": 192,
+   "n": 9,
+   "foll": 2650,
+   "rate": 72.7,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Guy Ellis",
+   "company": "NCC Group",
+   "mean": 185,
+   "median": 157,
+   "n": 6,
+   "foll": 1898,
+   "rate": 97.6,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Joe Vorih",
+   "company": "Genuit Group",
+   "mean": 183,
+   "median": 192,
+   "n": 8,
+   "foll": 3320,
+   "rate": 55.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Steve Murray",
+   "company": "Chesnara",
+   "mean": 181,
+   "median": 114,
+   "n": 6,
+   "foll": 5266,
+   "rate": 34.3,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Jorgen Kokke",
+   "company": "Genus",
+   "mean": 178,
+   "median": 169,
+   "n": 12,
+   "foll": 2923,
+   "rate": 61.0,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Nigel Terrington",
+   "company": "Paragon Banking Group",
+   "mean": 178,
+   "median": 138,
+   "n": 25,
+   "foll": 1928,
+   "rate": 92.4,
+   "new": false,
+   "idx": "FTSE 250"
   },
   {
    "name": "Donal Murphy",
@@ -563,9 +1304,241 @@
    "mean": 164,
    "median": 164,
    "n": 1,
-   "foll": 4128,
+   "foll": 4129,
    "rate": 39.7,
-   "new": false
+   "new": false,
+   "idx": "FTSE 100"
+  },
+  {
+   "name": "Stuart Burnett",
+   "company": "Telecom Plus",
+   "mean": 160,
+   "median": 161,
+   "n": 3,
+   "foll": 4131,
+   "rate": 38.7,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Rob Wood",
+   "company": "Breedon Group",
+   "mean": 158,
+   "median": 161,
+   "n": 5,
+   "foll": 1276,
+   "rate": 123.8,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Ben Wilkinson",
+   "company": "Molten Ventures",
+   "mean": 157,
+   "median": 157,
+   "n": 2,
+   "foll": 2347,
+   "rate": 66.9,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Lisa Jacobs",
+   "company": "Funding Circle",
+   "mean": 150,
+   "median": 126,
+   "n": 18,
+   "foll": 2733,
+   "rate": 55.0,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Mathios Rigas",
+   "company": "Energean",
+   "mean": 148,
+   "median": 138,
+   "n": 4,
+   "foll": 3998,
+   "rate": 37.0,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Ronnie George",
+   "company": "Volution Group",
+   "mean": 147,
+   "median": 143,
+   "n": 16,
+   "foll": 2695,
+   "rate": 54.7,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Rob Abraham",
+   "company": "Supermarket Income REIT",
+   "mean": 145,
+   "median": 145,
+   "n": 2,
+   "foll": 2911,
+   "rate": 49.8,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Nick Hampton",
+   "company": "Tate & Lyle",
+   "mean": 138,
+   "median": 104,
+   "n": 49,
+   "foll": 7765,
+   "rate": 17.8,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Andrew Denton",
+   "company": "Alfa Financial Software",
+   "mean": 126,
+   "median": 126,
+   "n": 22,
+   "foll": 22927,
+   "rate": 5.5,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Matthew Beesley",
+   "company": "Jupiter Fund Management",
+   "mean": 124,
+   "median": 133,
+   "n": 5,
+   "foll": 2835,
+   "rate": 43.9,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Greg Hegarty",
+   "company": "PPHE Hotel Group",
+   "mean": 114,
+   "median": 114,
+   "n": 2,
+   "foll": 3178,
+   "rate": 35.9,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Rob Wilkinson",
+   "company": "Hammerson",
+   "mean": 104,
+   "median": 85,
+   "n": 3,
+   "foll": 495,
+   "rate": 210.1,
+   "new": true,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Justinas Šimkus",
+   "company": "Baltic Classifieds",
+   "mean": 99,
+   "median": 100,
+   "n": 9,
+   "foll": 1353,
+   "rate": 73.1,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Joe Lister",
+   "company": "Unite Group",
+   "mean": 94,
+   "median": 77,
+   "n": 3,
+   "foll": 2113,
+   "rate": 44.6,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Toby Courtauld",
+   "company": "Great Portland Estates",
+   "mean": 88,
+   "median": 88,
+   "n": 1,
+   "foll": 1786,
+   "rate": 49.3,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Andrew Coombs",
+   "company": "Sirius Real Estate",
+   "mean": 78,
+   "median": 66,
+   "n": 61,
+   "foll": 8945,
+   "rate": 8.7,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Gilbert Clark",
+   "company": "Meridian Mining",
+   "mean": 74,
+   "median": 83,
+   "n": 5,
+   "foll": 893,
+   "rate": 82.6,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Maggie Fanari",
+   "company": "RIT Capital Partners",
+   "mean": 74,
+   "median": 74,
+   "n": 2,
+   "foll": 1852,
+   "rate": 40.2,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Will Gardiner",
+   "company": "Drax Group",
+   "mean": 72,
+   "median": 46,
+   "n": 30,
+   "foll": 8922,
+   "rate": 8.0,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Lord Peter Cruddas",
+   "company": "CMC Markets",
+   "mean": 53,
+   "median": 42,
+   "n": 26,
+   "foll": 24817,
+   "rate": 2.1,
+   "new": false,
+   "idx": "FTSE 250"
+  },
+  {
+   "name": "Greg Smith",
+   "company": "IP Group",
+   "mean": 41,
+   "median": 41,
+   "n": 1,
+   "foll": 1460,
+   "rate": 28.1,
+   "new": false,
+   "idx": "FTSE 250"
   }
  ]
 }

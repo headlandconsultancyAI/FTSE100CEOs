@@ -1,78 +1,226 @@
 company,ceo,followers,as_of
-Aberdeen Group,Jason Windsor,3347,2026-11-26
-Admiral Group,Milena Mondini de Focatiis,3084,2026-11-26
-Airtel Africa,Sunil Taldar,4634,2026-11-26
-Antofagasta,Iván Arriagada,59660,2026-11-26
-Associated British Foods,George Weston,503,2026-11-26
-Auto Trader Group,Nathan Coe,3300,2026-11-26
-Aviva,Amanda Blanc,42418,2026-11-26
-BAE Systems,Charles Woodburn,44287,2026-11-26
-BP,Meg O'Neill,122277,2026-11-26
-BT Group,Allison Kirkby,51447,2026-11-26
-Balfour Beatty,Philip Hoare,48136,2026-11-26
-Barclays,C S Venkatakrishnan,178353,2026-11-26
-Barratt Redrow,Dean Banks,13078,2026-11-26
-British American Tobacco,Tadeu Marroco,27680,2026-11-26
-British Land,Joanne McNamara,5531,2026-11-26
-Bunzl,Frank van Zanten,3466,2026-11-26
-Burberry Group,Joshua Schulman,7341,2026-11-26
-Centrica,Chris O’Shea,22510,2026-11-26
-Coca-Cola HBC,Zoran Bogdanović,6771,2026-11-26
-Compass Group,Dominic Blakemore,1284,2026-11-26
-Computacenter,Mike Norris,10456,2026-11-26
-Convatec Group,Jonny Mason,4529,2026-11-26
-DCC,Donal Murphy,4128,2026-11-26
-Diploma plc,Johnny Thomson,1221,2026-11-26
-Endeavour Mining,Ian Cockerill,2166,2026-11-26
-Fresnillo,Octavio Alvídrez,116,2026-11-26
-GSK,Luke Miels,17314,2026-11-26
-Games Workshop,Kevin Rountree,2,2026-11-26
-Haleon,Brian McNamara,32480,2026-11-26
-Halma,Marc Ronchetti,2630,2026-11-26
-Hiscox,Aki Hussain,12455,2026-11-26
-IAG,Luis Gallego,422,2026-11-26
-IG Group,Breon Corcoran,4115,2026-11-26
-IMI plc,Roy Twite,2693,2026-11-26
-Imperial Brands,Lukas Paravicini,1328,2026-11-26
-Intercontinental Hotels Group,Elie Maalouf,16115,2026-11-26
-Intertek Group,André Lacroix,18888,2026-11-26
-Investec,Fani Titi,73500,2026-11-26
-Ithaca Energy,Luciano Vasques,1201,2026-11-26
-JD Sports Fashion,Régis Schultz,82026,2026-11-26
-Kingfisher,Thierry Garnier,28025,2026-11-26
-Land Securities Group,Mark Allan,10216,2026-11-26
-Legal & General Group,António Simões,73616,2026-11-26
-Lion Finance Group,Archil Gachechiladze,3079,2026-11-26
-Lloyds Banking Group,Charlie Nunn,100530,2026-11-26
-London Stock Exchange Group,Julia Hoggett,32441,2026-11-26
-M&G,Andrea Rossi,19566,2026-11-26
-Marks & Spencer Group plc,Stuart Machin,200237,2026-11-26
-Melrose Industries,Peter Dilnot,2994,2026-11-26
-Metlen Energy & Metals,Christos Gavalas,3172,2026-11-26
-National Grid,Zoe Yujnovich,22483,2026-11-26
-Natwest Group,Paul Thwaite,65535,2026-11-26
-Pearson,Omar Abbosh,45731,2026-11-26
-Prudential,Anil Wadhwani,18420,2026-11-26
-Reckitt Benckiser Group,Kris Licht,17449,2026-11-26
-Rentokil Initial,Mike Duffy,2312,2026-11-26
-Rio Tinto,Simon Trott,60702,2026-11-26
-Rolls-Royce Holdings,Tufan Erginbilgic,92846,2026-11-26
-SSE,Martin Pibworth,5844,2026-11-26
-Sage,Stephen Hare,26812,2026-11-26
-Sainsbury’s,Simon Roberts,44345,2026-11-26
-Segro,David Sleath,2063,2026-11-26
-Severn Trent,James Jesic,3848,2026-11-26
-Shell,Wael Sawan,133553,2026-11-26
-Smith & Nephew,Deepak Nath,14653,2026-11-26
-Spirax Group,Nimesh Patel,3199,2026-11-26
-St James Place,Mark FitzPatrick,20126,2026-11-26
-Standard Chartered,Bill Winters,148171,2026-11-26
+4imprint,Kevin Lyons-Tarr,1301,2026-11-27
+A.G. Barr,Euan Sutherland,6383,2026-11-27
+AJ Bell,Michael Summersgill,6355,2026-11-27
+AO World,John Roberts,353,2026-11-27
+ASOS,José Antonio Ramos Calamonte,7200,2026-11-27
+Aberdeen Group,Jason Windsor,3349,2026-11-27
+Admiral Group,Milena Mondini de Focatiis,3085,2026-11-27
+Airtel Africa,Sunil Taldar,4649,2026-11-27
+Alfa Financial Software,Andrew Denton,22927,2026-11-27
+Amaroq,Eldur Olafsson,6047,2026-11-27
+Antofagasta,Iván Arriagada,59682,2026-11-27
+Applied Nutrition,Thomas Ryder,14264,2026-11-27
+Associated British Foods,George Weston,503,2026-11-27
+Auction Technology Group,Duncan Painter,2206,2026-11-27
+Auto Trader Group,Nathan Coe,3301,2026-11-27
+Aviva,Amanda Blanc,42439,2026-11-27
+Avon Technologies,Jos Sclater,1135,2026-11-27
+B&M,Tjeerd Jegen,7340,2026-11-27
+BAE Systems,Charles Woodburn,44301,2026-11-27
+BP,Meg O'Neill,122541,2026-11-27
+BT Group,Allison Kirkby,51489,2026-11-27
+Balfour Beatty,Philip Hoare,48146,2026-11-27
+Baltic Classifieds,Justinas Šimkus,1353,2026-11-27
+Barclays,C S Venkatakrishnan,178423,2026-11-27
+Barratt Redrow,Dean Banks,13082,2026-11-27
+Berkeley Group Holdings,Richard Stearn,924,2026-11-27
+Big Yellow Group,John Hunter,1537,2026-11-27
+Bodycote,Jim Fairbairn,2772,2026-11-27
+Breedon Group,Rob Wood,1276,2026-11-27
+British American Tobacco,Tadeu Marroco,27690,2026-11-27
+British Land,Joanne McNamara,5562,2026-11-27
+Bunzl,Frank van Zanten,3468,2026-11-27
+Burberry Group,Joshua Schulman,7349,2026-11-27
+Bytes Technology Group,Sam Mudd,5933,2026-11-27
+CMC Markets,Lord Peter Cruddas,24817,2026-11-27
+CVS Group,Richard Fairman,1240,2026-11-27
+Caledonia Investments,Mat Masters,479,2026-11-27
+Centrica,Chris O’Shea,22523,2026-11-27
+Ceres Power,Phil Caldwell,4719,2026-11-27
+Chemring Group,Michael Ord,825,2026-11-27
+Chesnara,Steve Murray,5266,2026-11-27
+Close Brothers Group,Mike Morgan,1642,2026-11-27
+Coats Group,David Paja,3877,2026-11-27
+Coca-Cola HBC,Zoran Bogdanović,6866,2026-11-27
+Compass Group,Dominic Blakemore,1291,2026-11-27
+Computacenter,Mike Norris,10457,2026-11-27
+Convatec Group,Jonny Mason,4539,2026-11-27
+Costain Group,Alex Vaughan,6118,2026-11-27
+Cranswick,Adam Couch,650,2026-11-27
+Currys,Fredrik Tønnesen,7644,2026-11-27
+DCC,Donal Murphy,4129,2026-11-27
+Derwent London,Jonathan Murphy,4087,2026-11-27
+Diploma plc,Johnny Thomson,1221,2026-11-27
+Domino's Pizza,Nicola Frampton,3167,2026-11-27
+Dr. Martens,Ije Nwokorie,56445,2026-11-27
+Drax Group,Will Gardiner,8922,2026-11-27
+Dunelm Group,Clo Moriarty,5051,2026-11-27
+Elementis,Luc van Ravenstein,3166,2026-11-27
+EnQuest,Amjad Bseisu,284,2026-11-27
+Endeavour Mining,Ian Cockerill,2167,2026-11-27
+Energean,Mathios Rigas,3998,2026-11-27
+Entain,Stella David,3609,2026-11-27
+Eurowag,Martin Vohánka,15001,2026-11-27
+FirstGroup,Graham Sutherland,1026,2026-11-27
+Frasers Group,Michael Murray,50271,2026-11-27
+Fresnillo,Octavio Alvídrez,118,2026-11-27
+Funding Circle,Lisa Jacobs,2733,2026-11-27
+GSK,Luke Miels,17317,2026-11-27
+Galliford Try,Bill Hocking,168,2026-11-27
+Games Workshop,Kevin Rountree,2,2026-11-27
+Gamma Communications,Andrew Belshaw,2011,2026-11-27
+Genuit Group,Joe Vorih,3320,2026-11-27
+Genus,Jorgen Kokke,2923,2026-11-27
+GlobalData,Mike Danson,1130,2026-11-27
+Grafton Group,Eric Born,1386,2026-11-27
+Great Portland Estates,Toby Courtauld,1786,2026-11-27
+Greencore,Dalton Philips,5625,2026-11-27
+Greggs,Roisin Currie,4694,2026-11-27
+Haleon,Brian McNamara,32480,2026-11-27
+Halfords,Henry Birch,11224,2026-11-27
+Halma,Marc Ronchetti,2632,2026-11-27
+Hammerson,Rob Wilkinson,495,2026-11-27
+Harbour Energy,Linda Cook,275,2026-11-27
+Hays,Mark Dearnley,3707,2026-11-27
+Helios Towers,Tom Greenwood,11906,2026-11-27
+Hikma Pharmaceuticals,Said Darwazah,6175,2026-11-27
+Hill & Smith,Rutger Helbing,851,2026-11-27
+Hilton Food Group,Mark Allen,1643,2026-11-27
+Hiscox,Aki Hussain,12475,2026-11-27
+Hochschild Mining,Eduardo Landin,2650,2026-11-27
+Hollywood Bowl Group,Stephen Burns,639,2026-11-27
+Hunting,Jim Johnson,2061,2026-11-27
+IAG,Luis Gallego,425,2026-11-27
+IG Group,Breon Corcoran,4119,2026-11-27
+IMI plc,Roy Twite,2696,2026-11-27
+IP Group,Greg Smith,1460,2026-11-27
+Imperial Brands,Lukas Paravicini,1329,2026-11-27
+Inchcape,Duncan Tait,13387,2026-11-27
+Intercontinental Hotels Group,Elie Maalouf,16199,2026-11-27
+International Workplace Group,Christian Schmitz,6865,2026-11-27
+Intertek Group,André Lacroix,18912,2026-11-27
+Investec,Fani Titi,73540,2026-11-27
+Ithaca Energy,Luciano Vasques,1203,2026-11-27
+JD Sports Fashion,Régis Schultz,82026,2026-11-27
+Johnson Matthey,Liam Condon,24073,2026-11-27
+Johnson Service Group,Peter Egan,42,2026-11-27
+Jupiter Fund Management,Matthew Beesley,2835,2026-11-27
+Kainos,Brendan Mooney,4338,2026-11-27
+Keller Group,James Wroath,3424,2026-11-27
+Kier Group,Stuart Togwell,8375,2026-11-27
+Kingfisher,Thierry Garnier,28053,2026-11-27
+Lancashire Holdings,Alex Maloney,523,2026-11-27
+Land Securities Group,Mark Allan,10220,2026-11-27
+Law Debenture,Denis Jackson,586,2026-11-27
+Legal & General Group,António Simões,73621,2026-11-27
+Lion Finance Group,Archil Gachechiladze,3086,2026-11-27
+Lloyds Banking Group,Charlie Nunn,100575,2026-11-27
+London Stock Exchange Group,Julia Hoggett,32477,2026-11-27
+M&G,Andrea Rossi,19598,2026-11-27
+ME Group International,Serge Crasnianski,3,2026-11-27
+MONY Group,Peter Duffy,1315,2026-11-27
+Man Group,Robyn Grew,12976,2026-11-27
+Marks & Spencer Group plc,Stuart Machin,200284,2026-11-27
+Melrose Industries,Peter Dilnot,2996,2026-11-27
+Meridian Mining,Gilbert Clark,893,2026-11-27
+Metlen Energy & Metals,Christos Gavalas,3178,2026-11-27
+Metro Bank,Daniel Frumkin,1365,2026-11-27
+Michael Page,Nicholas Kirk,20419,2026-11-27
+Mitchells & Butlers,Phil Urban,2342,2026-11-27
+Mitie,Phil Bentley,3262,2026-11-27
+Molten Ventures,Ben Wilkinson,2347,2026-11-27
+Mondi,Andrew King,3463,2026-11-27
+Moonpig,Catherine Faiers,7476,2026-11-27
+Morgan Advanced Materials,Damien Caby,1101,2026-11-27
+Morgan Sindall Group,John Morgan,613,2026-11-27
+NCC Group,Guy Ellis,1898,2026-11-27
+National Grid,Zoe Yujnovich,22527,2026-11-27
+Natwest Group,Paul Thwaite,65587,2026-11-27
+Ninety One,Hendrik du Toit,5576,2026-11-27
+OSB Group,Enrique Alvarez Labiano,7497,2026-11-27
+Ocado Group,Tim Steiner,1143,2026-11-27
+Oxford Biomedica,Frank Mathias,1029,2026-11-27
+Oxford Instruments,Richard Tyson,1571,2026-11-27
+Oxford Nanopore Technologies,Francis Van Parys,8598,2026-11-27
+PPHE Hotel Group,Greg Hegarty,3178,2026-11-27
+Paragon Banking Group,Nigel Terrington,1928,2026-11-27
+Pearson,Omar Abbosh,45739,2026-11-27
+Pennon Group,Keith Haslett,1709,2026-11-27
+Pets at Home,James Bailey,4662,2026-11-27
+Playtech,Mor Weizer,12381,2026-11-27
+Plus500,David Zruia,5631,2026-11-27
+Pollen Street Group,Lindsey McMurray,2050,2026-11-27
+Premier Foods,Alex Whitehouse,1462,2026-11-27
+Primary Health Properties,Mark Davies,1711,2026-11-27
+Princes Group,Giuseppe Mastrolia,10392,2026-11-27
+Prudential,Anil Wadhwani,18433,2026-11-27
+Qinetiq,Steve Wadey,5974,2026-11-27
+Quilter,Steven Levin,2348,2026-11-27
+RHI Magnesita,Gustavo Franco,5101,2026-11-27
+RIT Capital Partners,Maggie Fanari,1852,2026-11-27
+RS Group,Simon Pryce,6510,2026-11-27
+Rank Group,Richard Harris,983,2026-11-27
+Raspberry Pi Holdings,Eben Upton,3590,2026-11-27
+Rathbones,Jonathan Sorrell,9580,2026-11-27
+Reckitt Benckiser Group,Kris Licht,17469,2026-11-27
+Renishaw,Will Lee,1605,2026-11-27
+Rentokil Initial,Mike Duffy,2311,2026-11-27
+Rightmove,Johan Svanstrom,11388,2026-11-27
+Rio Tinto,Simon Trott,60750,2026-11-27
+Rolls-Royce Holdings,Tufan Erginbilgic,92953,2026-11-27
+Rotork,Kiet Huynh,1933,2026-11-27
+SSE,Martin Pibworth,5850,2026-11-27
+SSP Group,Patrick Coveney,17611,2026-11-27
+Safestore,Frederic Vecchioli,144,2026-11-27
+Saga,Mike Hazell,1147,2026-11-27
+Sage,Stephen Hare,26819,2026-11-27
+Sainsbury’s,Simon Roberts,44403,2026-11-27
+Savills,Simon Shaw,1306,2026-11-27
+Segro,David Sleath,2070,2026-11-27
+Serco,Anthony Kirby,1958,2026-11-27
+Severn Trent,James Jesic,3862,2026-11-27
+Shawbrook Bank,Marcelino Castrillo,5324,2026-11-27
+Shell,Wael Sawan,133668,2026-11-27
+Sirius Real Estate,Andrew Coombs,8945,2026-11-27
+Smith & Nephew,Deepak Nath,14656,2026-11-27
+Softcat,Graham Charlton,4406,2026-11-27
+Spirax Group,Nimesh Patel,3199,2026-11-27
+Spire Healthcare,David Sloman,879,2026-11-27
+St James Place,Mark FitzPatrick,20139,2026-11-27
+Standard Chartered,Bill Winters,148212,2026-11-27
 Standard Life,Andy Briggs,8886,2026-11-26
-Tritax Big Box REIT,Colin Godfrey,1229,2026-11-26
-Unilever,Fernando Fernandez,115325,2026-11-26
-United Utilities,Louise Beardmore,6225,2026-11-26
-Vodafone Group,Margherita Della Valle,42124,2026-11-26
-WPP,Cindy Rose,65745,2026-11-26
-Weir Group,Andrew Neilson,1825,2026-11-26
-Whitbread,Dominic Paul,2380,2026-11-26
-easyJet plc,Kenton Jarvis,49926,2026-11-26
+Supermarket Income REIT,Rob Abraham,2911,2026-11-27
+Syncona,Chris Hollowood,2991,2026-11-27
+TBC Bank,Vakhtang Butskhrikidze,2247,2026-11-27
+THG,Matthew Moulding,39555,2026-11-27
+TP ICAP,Nicolas Breteau,4689,2026-11-27
+Tate & Lyle,Nick Hampton,7765,2026-11-27
+Taylor Wimpey,Jennie Daly,14493,2026-11-27
+Telecom Plus,Stuart Burnett,4131,2026-11-27
+Trainline,Ian Brown,4529,2026-11-27
+Travis Perkins,Gavin Slark,1689,2026-11-27
+Tritax Big Box REIT,Colin Godfrey,1229,2026-11-27
+Trustpilot,Adrian Blair,11431,2026-11-27
+Unilever,Fernando Fernandez,115446,2026-11-27
+Unite Group,Joe Lister,2113,2026-11-27
+United Utilities,Louise Beardmore,6226,2026-11-27
+Vesuvius,Patrick André,2137,2026-11-27
+Victrex,James Routh,2617,2026-11-27
+Vistry Group,Adam Daniels,9118,2026-11-27
+Vodafone Group,Margherita Della Valle,42127,2026-11-27
+Volex,Nat Rothschild,3667,2026-11-27
+Volution Group,Ronnie George,2695,2026-11-27
+WPP,Cindy Rose,65789,2026-11-27
+Weir Group,Andrew Neilson,1828,2026-11-27
+Wetherspoons,John Hutson,232,2026-11-27
+Whitbread,Dominic Paul,2381,2026-11-27
+Wickes,David Wood,7986,2026-11-27
+Workspace Group,Charlie Green,4952,2026-11-27
+XP Power,Gavin Griggs,1500,2026-11-27
+XPS Pensions,Ben Bramhall,1120,2026-11-27
+XPS Pensions,Paul Cuff,1426,2026-11-27
+Young & Co's Brewery,Simon Dodd,14073,2026-11-27
+Zigup,Martin Ward,380,2026-11-27
+discoverIE,Nick Jefferies,565,2026-11-27
+easyJet plc,Kenton Jarvis,50004,2026-11-27
